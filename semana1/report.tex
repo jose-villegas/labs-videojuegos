@@ -1,0 +1,140 @@
+\begin{center}
+\textsc{\Large Laboratorio 1}~\\
+\emph{\large Vídeo Juegos, Historia y Concepto}
+\end{center}
+
+\section{Pre-Laboratorio}
+\todo[inline]{Por hacer.}
+
+\section{¿Qué es un Vídeo Juego?}
+Es un juego electrónico que requiere la interacción humana con una interfaz de usuario para generar \emph{feedback} visual en dispositivo de vídeo. Los dispositivos electrónicos utilizados para jugar vídeo juegos son llamados plataformas, ejemplos de ello son los computadores personas y las consolas de vídeo juegos.
+
+El dispositivo principal de entrada en un vídeo juego se llama control de juego o \emph{game controller}, este dispositivo suele variar por genero o plataforma, siendo por ejemplo en los juegos de computador personal mas común el uso del teclado y/o ratón, mientras que en los juegos de consolas de vídeo juegos es mas común el uso de un mando.
+
+La palabra \emph{vídeo} en vídeo juegos se refiere a un dispositivo de imágenes, sin embargo los vídeo juegos como hoy conocemos proveen mas de una fuente de \emph{feedback} tales como audio en su gran mayoría, vibración o \emph{force feedback}, etc.
+
+\section{Breve Historia de los Videojuegos - Primera Generación}
+\begin{table}[H]
+\small
+\caption{Historia de los Vídeo Juegos}
+\centering
+\begin{minipage}[t]{0.9\linewidth}
+\color{gray}
+\rule{\linewidth}{1pt}
+\ytl{1952}{A. S. Douglas crea el primer juego electrónico documentado para su tesis doctoral, un juego de tic-tac-toe corriendo en el computador 
+\emph{EDSAC} de la Universidad de Cambridge \cite{asdouglasgame}}
+\ytl{1958}{\emph{Tenis for Two} de  William Higinbotham en un osciloscopio \cite{tennisfortwo}}
+\ytl{1962}{\emph{Spacewar!} de  Steven Russell en el computador \emph{PDP-1} \cite{spacewar}}
+\ytl{1967}{Ralph Baer y sus compañeros de trabajo crean la primera consola de vídeo juegos que funciona sobre televisión estándar, la llaman \emph{Brown Box} \cite{ralphbaerbrownbox}}
+\ytl{1971}{Nolan Bushnell crea la primera arcade llamada Computer Space \cite{computerspace}}
+\ytl{1972}{Sale en venta la primera consola de vídeo juegos para el hogar llamada Magnavox Odyssey, se venden aproximadamente 330.000 unidades \cite{magnavox}}
+\ytl{1972}{Pong publicado por Atari y creado por Nolan Bushnell se convierte en el primer juego arcade exitoso \cite{atarispong}}
+\ytl{1974}{Sale Gran Trak 10 primer juego arcade de carreras \cite{grantrak}}
+\ytl{1974}{Sale Maze Wars considerado el primer shooter en primera persona \cite{mazewars}}
+\ytl{1977}{Atari saca a la venta la consola \emph{Video Game Computer System} (\emph{Atari 2600 o VCS})}
+\bigskip
+\rule{\linewidth}{1pt}%
+\end{minipage}%
+\end{table}
+
+\section{Desarrollo de Vídeo Juegos}
+Los vídeo juegos son usualmente creados en grupos de desarrollo conformados por varias personas con distintos roles, una persona puede puede tener la capacidad de manejar uno o mas roles, algunos roles solo son necesarios durante ciertas etapas del juego (ejemplo testers) mientras que otros son necesarios durante todo el proceso de desarrollo (ejemplo programadores). Los roles necesarios para la creación de un vídeo juego pueden variar según el objetivo y alcance del vídeo juego pero usualmente son los siguientes \cite{bobbatesgamedesign}:
+
+\subsection{Roles}
+\small
+\begin{description}
+\item[Diseñador] \hfill \\
+Diseña las mecánicas de juego, reglas, limitantes, objetivos, estructura y alcance del vídeo juego. Básicamente son los visionarios del juego, en proyectos grandes usualmente este trabajo es dividido en varios roles como diseñadores de mecanicas de juego, diseñadores de interfaces, diseñadores de aventuras (quests), escritores, etc.
+\item[Artista] \hfill \\
+Encargado de producir todo el arte utilizado en el juego, el trabajo del artista puede ser orientado a 3D o 2D. Artistas 2D suelen producir arte conceptual, sprites, texturas, e interfaces de usuario. Artistas 3D suelen producir modelos o mallados, animación, ambientes 3D y cinemáticas.
+\normalsize
+\item[Programador] \hfill \\
+Crea la base de código del vídeo juego, esto incluye:
+\begin{itemize}
+\item Físicas: Programación del motor de físicas, simulaciones físicas, colisiones, movimiento de objetos, etc.
+\item Inteligencia Artificial: Programación de objetos o agentes interactivos utilizando técnicas de inteligencia artificial para juegos como scripting, planificación, decisiones basadas en reglas, etc.
+\item Gráficos: Programación del contenido gráfico con importantes consideraciones en memoria y performance, la producción del motor gráfico, la integración de modelos, texturas y demás contenido que debe funcionar junto con el motor de físicas y motor de juego.
+\item Sonido: Integración de musica, dialogo y efectos de sonido en distintos sitios y situaciones. 
+\item Mecánicas de Juego: Implementación de varias reglas, objetivos y respuestas del juego. 
+\item Scripting: Desarrollo y manteniendo de un sistema de comandos en alto nivel para la interacción con varios elementos del juego.
+\item Interfaces de Usuario
+Desarrollo de elementos de interfaz, menus y sistemas de \emph{feedback}.
+\item Procesamiento de Input: Establece correlación de distintas acciones, eventos y sistemas de respuestas con variados dispositivos de entrada.
+\item Networking: Administración de data recibida de forma local o a través de internet. 
+\item Herramientas de juego: Producción de herramientas de desarrollo para el vídeo juego, especialmente para diseñadores y scripting.
+\end{itemize}
+\small
+\item[Diseñador de niveles] \hfill \\
+Crea los niveles, misiones y retos del vídeo juego utilizando programas específicos. Los diseñadores de niveles trabajan con versiones completas e incompletas del juego e interactúan directamente con editores de niveles usualmente desarrollados por los programadores del vídeo juego, esto para eliminar la necesidad de los diseñadores tener que interactuar directamente con el código del vídeo juego.
+\item[Ingeniero de Sonido] \hfill \\
+Se encarga de los efectos de sonido y su debido posicionamiento en tiempo y espacio sea 2D o 3D.
+\item[Testers] \hfill \\
+El control de calidad y \emph{QA} o \emph{quality assurance} (aseguramiento de calidad) es llevado por los testers, estos se encargan de analizar un vídeo juego y documentar todo defecto de software encontrado además de analizar si el juego cumple o no con el diseño propuesto.
+\end{description}
+
+\section{Lenguajes y Herramientas}
+
+\subsection{HTML5 y Javascript}
+\begin{description}
+\item[Phaser] \hfill \\
+\textbf{Descripción}: \emph{Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.} \\
+\textbf{URL}: \url{https://phaser.io/}
+\item[PlayCanvas] \hfill \\
+\textbf{Descripción}: \emph{PlayCanvas is the world's easiest to use WebGL Game Engine. It's free, it's open source and it's backed by amazing developer tools.} \\
+\textbf{URL}: \url{https://playcanvas.com/}
+\item[Unity3D] \hfill \\
+\textbf{Descripción}: \emph{Unity is a flexible and powerful development platform for creating multiplatform 3D and 2D games and interactive experiences. It's a complete ecosystem for anyone who aims to build a business on creating high-end content and connecting to their most loyal and enthusiastic players and customers.} \\
+\textbf{URL}: \url{https://unity3d.com/unity}
+\item[COCOS2D-JS] \hfill \\
+\textbf{Descripción}: \emph{Cocos2d-X is a suite of open-source, cross-platform, game-development tools used by thousands of developers all over the world.} \\
+\textbf{URL}: \url{http://www.cocos2d-x.org/}
+\end{description}
+
+\subsection{Java}
+\begin{description}
+\item[Slick2D] \hfill \\
+\textbf{Descripción}: \emph{PSlick2D is an easy to use set of tools and utilites wrapped around LWJGL OpenGL bindings to make 2D Java game development easier.} \\
+\textbf{URL\textbf{•}}: \url{http://slick.ninjacave.com/}
+\item[jMonkeyEngine] \hfill \\
+\textbf{Descripción}: \emph{It’s a free, open source game engine, made especially for Java game developers who want to create 3D games using modern technology. The software is programmed entirely in Java, intended for wide accessibility and quick deployment.} \\
+\textbf{URL}: \url{http://jmonkeyengine.org/}
+\end{description}
+
+\subsection{C++}
+\begin{description}
+\item[COCOS2D-X] \hfill \\
+\textbf{Descripción}: \emph{Cocos2d-X is a suite of open-source, cross-platform, game-development tools used by thousands of developers all over the world.} \\
+\textbf{URL}: \url{http://www.cocos2d-x.org/}
+\item[Torque2D] \hfill \\
+\textbf{Descripción}: \emph{Torque 2D is an extremely powerful, flexible, and fast open source engine dedicated to 2D game development.} \\
+\textbf{URL}: \url{https://www.garagegames.com/products/torque-2d/features}
+\item[Godot Engine] \hfill \\
+\textbf{Descripción}: \emph{Godot is an advanced, feature packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.} \\
+\textbf{URL}: \url{http://www.godotengine.org/wp/}
+\end{description}
+
+\subsection{C\#}
+\begin{description}
+\item[Paradox] \hfill \\
+\textbf{Descripción}: \emph{Paradox is a versatile and engaging game engine, that will empower you to make stunning games that better fit your vision!} \\
+\textbf{URL}: \url{http://paradox3d.net/}
+\item[Monogame] \hfill \\
+Descripción: \emph{MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow XNA developers on Xbox 360, Windows \& Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8 Metro. PlayStation Mobile, Raspberry PI, and PlayStation 4 platforms are currently in progress.} \\
+\textbf{URL}: \url{http://www.monogame.net/}
+\item[Wave Engine] \hfill \\
+\textbf{Descripción}: \emph{Component Based Game Engine architecture, 2D and 3D physics engines, beautiful visuals effects, cross-platform support, advanced layout system and much more.} \\
+\textbf{URL}: \url{http://waveengine.net/}
+\item[Unity3D] \hfill \\
+\textbf{Descripción}: \emph{Unity is a flexible and powerful development platform for creating multiplatform 3D and 2D games and interactive experiences. It's a complete ecosystem for anyone who aims to build a business on creating high-end content and connecting to their most loyal and enthusiastic players and customers.} \\
+\textbf{URL}: \url{https://unity3d.com/unity}
+\end{description}
+
+\subsection{Python}
+\begin{description}
+\item[Pygame] \hfill \\
+\textbf{Descripción}: \emph{Pygame is a cross-platfrom library designed to make it easy to write multimedia software, such as games, in Python. Pygame requires the Python language and SDL multimedia library. It can also make use of several other popular libraries.} \\
+\textbf{URL}: \url{http://www.pygame.org/}
+\end{description}
+
+\section{Actividad}
+\todo[inline]{Por hacer.}
