@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  25 MAY 2015 14:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  25 MAY 2015 16:43
 entering extended mode
 **main.tex
 (C:\Users\Jose\Documents\LabsVideojuegos\main.tex
@@ -898,46 +898,48 @@ Package epstopdf Info: Source file: <logoucv.eps>
 f logoucv.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<logoucv-eps-converted-to.pdf, id=22, 170.6375pt x 171.64125pt>
+<logoucv-eps-converted-to.pdf, id=38, 170.6375pt x 171.64125pt>
 File: logoucv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logoucv-eps-converted-to.pdf>
 Package pdftex.def Info: logoucv-eps-converted-to.pdf used on input line 52.
 (pdftex.def)             Requested size: 65.0pt x 65.38148pt.
 
-(C:\Users\Jose\Documents\LabsVideojuegos\semana5/report.tex
+(C:\Users\Jose\Documents\LabsVideojuegos\semana7/report.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 7.
 )
 (C:\Users\Jose\Documents\LabsVideojuegos\main.bbl [1
 
 {C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jos
-e/Documents/LabsVideojuegos/logoucv-eps-converted-to.pdf>]) [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+e/Documents/LabsVideojuegos/logoucv-eps-converted-to.pdf>]
 
-(C:\Users\Jose\Documents\LabsVideojuegos\main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
+ (C:\Users\Jose\Documents\LabsVideojuegos\main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4946C719AEECF5735694F6AEA59DD199;195.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+(rerunfilecheck)             Checksum: 65CEFAF371D2FE8C31F444857702E534;404.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 18039 strings out of 493921
- 330473 string characters out of 3154503
- 409708 words of memory out of 3000000
- 20994 multiletter control sequences out of 15000+200000
+ 18043 strings out of 493921
+ 330492 string characters out of 3154503
+ 408708 words of memory out of 3000000
+ 20995 multiletter control sequences out of 15000+200000
  5840 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,7n,80p,435b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (2 pages, 103915 bytes).
+fb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (2 pages, 91142 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
