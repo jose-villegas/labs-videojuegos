@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  21 MAY 2015 17:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  25 MAY 2015 14:37
 entering extended mode
 **main.tex
 (C:\Users\Jose\Documents\LabsVideojuegos\main.tex
@@ -892,17 +892,12 @@ Package epstopdf Info: Source file: <logoucv.eps>
 (epstopdf)                    date: 2015-05-21 17:55:14
 (epstopdf)                    size: 130599 bytes
 (epstopdf)             Output file: <logoucv-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-21 17:15:11
+(epstopdf)                    date: 2015-05-25 14:12:24
 (epstopdf)                    size: 33045 bytes
 (epstopdf)             Command: <epstopdf --outfile=logoucv-eps-converted-to.pd
 f logoucv.eps>
 (epstopdf)             \includegraphics on input line 52.
-runsystem(epstopdf --outfile=logoucv-eps-converted-to.pdf logoucv.eps)...execut
-ed (allowed).
-
-Package epstopdf Info: Result file: <logoucv-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-21 17:15:13
-(epstopdf)                    size: 33045 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <logoucv-eps-converted-to.pdf, id=22, 170.6375pt x 171.64125pt>
 File: logoucv-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -910,74 +905,39 @@ File: logoucv-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: logoucv-eps-converted-to.pdf used on input line 52.
 (pdftex.def)             Requested size: 65.0pt x 65.38148pt.
 
-(C:\Users\Jose\Documents\LabsVideojuegos\semana2/report.tex
+(C:\Users\Jose\Documents\LabsVideojuegos\semana5/report.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 7.
-
-<semana2/sprite_ej1.png, id=23, 72.27pt x 72.27pt>
-File: semana2/sprite_ej1.png Graphic file (type png)
-
-<use semana2/sprite_ej1.png>
-Package pdftex.def Info: semana2/sprite_ej1.png used on input line 11.
-(pdftex.def)             Requested size: 75.28152pt x 75.28581pt.
-Package epstopdf Info: Source file: <semana2/bills.eps>
-(epstopdf)                    date: 2015-05-21 17:00:24
-(epstopdf)                    size: 361766 bytes
-(epstopdf)             Output file: <semana2/bills-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-21 17:00:43
-(epstopdf)                    size: 5929 bytes
-(epstopdf)             Command: <epstopdf --outfile=semana2/bills-eps-converted
--to.pdf semana2/bills.eps>
-(epstopdf)             \includegraphics on input line 22.
-Package epstopdf Info: Output file is already uptodate.
-
-<semana2/bills-eps-converted-to.pdf, id=27, 616.3025pt x 186.6975pt>
-File: semana2/bills-eps-converted-to.pdf Graphic file (type pdf)
-
-<use semana2/bills-eps-converted-to.pdf>
-Package pdftex.def Info: semana2/bills-eps-converted-to.pdf used on input line 
-22.
-(pdftex.def)             Requested size: 390.25534pt x 118.22398pt.
- [1
+)
+(C:\Users\Jose\Documents\LabsVideojuegos\main.bbl [1
 
 {C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jos
-e/Documents/LabsVideojuegos/logoucv-eps-converted-to.pdf> <C:/Users/Jose/Docume
-nts/LabsVideojuegos/semana2/sprite_ej1.png>]) (C:\Users\Jose\Documents\LabsVide
-ojuegos\main.bbl
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
-) [2 <C:/Users/Jose/Documents/LabsVideojuegos/semana2/bills-eps-converted-to.pd
-f>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
+e/Documents/LabsVideojuegos/logoucv-eps-converted-to.pdf>]) [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
 
 (C:\Users\Jose\Documents\LabsVideojuegos\main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F88D5AA68CCA8AA0E5E4A3D4CAEBF4E0;193.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
+(rerunfilecheck)             Checksum: 4946C719AEECF5735694F6AEA59DD199;195.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
  ) 
 Here is how much of TeX's memory you used:
- 18085 strings out of 493921
- 331182 string characters out of 3154503
+ 18039 strings out of 493921
+ 330473 string characters out of 3154503
  409708 words of memory out of 3000000
- 21028 multiletter control sequences out of 15000+200000
- 8447 words of font info for 30 fonts, out of 3000000 for 9000
+ 20994 multiletter control sequences out of 15000+200000
+ 5840 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,7n,80p,448b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,7n,80p,435b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
 fb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.
-pfb>
-Output written on main.pdf (2 pages, 117556 bytes).
+public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (2 pages, 103915 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 60 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
