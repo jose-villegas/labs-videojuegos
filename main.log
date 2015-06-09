@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  4 JUN 2015 17:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  9 JUN 2015 14:09
 entering extended mode
 **main.tex
 (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.tex
@@ -898,127 +898,46 @@ Package epstopdf Info: Source file: <logoucv.eps>
 f logoucv.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<logoucv-eps-converted-to.pdf, id=174, 170.6375pt x 171.64125pt>
+<logoucv-eps-converted-to.pdf, id=22, 170.6375pt x 171.64125pt>
 File: logoucv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logoucv-eps-converted-to.pdf>
 Package pdftex.def Info: logoucv-eps-converted-to.pdf used on input line 52.
 (pdftex.def)             Requested size: 65.0pt x 65.38148pt.
 
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana2/report.tex
+(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana5/report.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 7.
-
-<semana2/sprite_ej1.png, id=175, 72.27pt x 72.27pt>
-File: semana2/sprite_ej1.png Graphic file (type png)
-
-<use semana2/sprite_ej1.png>
-Package pdftex.def Info: semana2/sprite_ej1.png used on input line 11.
-(pdftex.def)             Requested size: 75.28152pt x 75.28581pt.
-Package epstopdf Info: Source file: <semana2/bills.eps>
-(epstopdf)                    date: 2015-05-21 17:00:24
-(epstopdf)                    size: 361766 bytes
-(epstopdf)             Output file: <semana2/bills-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-21 17:00:43
-(epstopdf)                    size: 5929 bytes
-(epstopdf)             Command: <epstopdf --outfile=semana2/bills-eps-converted
--to.pdf semana2/bills.eps>
-(epstopdf)             \includegraphics on input line 22.
-Package epstopdf Info: Output file is already uptodate.
-
-<semana2/bills-eps-converted-to.pdf, id=179, 616.3025pt x 186.6975pt>
-File: semana2/bills-eps-converted-to.pdf Graphic file (type pdf)
-
-<use semana2/bills-eps-converted-to.pdf>
-Package pdftex.def Info: semana2/bills-eps-converted-to.pdf used on input line 
-22.
-(pdftex.def)             Requested size: 390.25534pt x 118.22398pt.
- [1
+)
+(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.bbl [1
 
 {C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jos
-e/Dropbox/UCV/Pasantias/LabsVideojuegos/logoucv-eps-converted-to.pdf> <C:/Users
-/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/semana2/sprite_ej1.png>])
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana3/report.tex)
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana4/report.tex
-[2 <C:/Users/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/semana2/bills-eps-conve
-rted-to.pdf>])
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana5/report.tex
-[3]) (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana6/report.tex
-[4]) (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana7/report.tex
-[5] <semana7/beamng_gamephysics.jpg, id=233, 669.50125pt x 271.0125pt>
-File: semana7/beamng_gamephysics.jpg Graphic file (type jpg)
-
-<use semana7/beamng_gamephysics.jpg>
-Package pdftex.def Info: semana7/beamng_gamephysics.jpg used on input line 16.
-(pdftex.def)             Requested size: 390.25534pt x 157.98132pt.
-
-<semana7/powdertoy.jpg, id=235, 481.8pt x 361.35pt>
-File: semana7/powdertoy.jpg Graphic file (type jpg)
-
-<use semana7/powdertoy.jpg>
-Package pdftex.def Info: semana7/powdertoy.jpg used on input line 26.
-(pdftex.def)             Requested size: 390.25534pt x 292.69742pt.
- [6 <C:/Users/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/semana7/beamng_gamephy
-sics.jpg>] [7 <C:/Users/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/semana7/powd
-ertoy.jpg>]
-<semana7/Gang_Garrison_2.png, id=253, 602.25pt x 451.6875pt>
-File: semana7/Gang_Garrison_2.png Graphic file (type png)
-
-<use semana7/Gang_Garrison_2.png>
-Package pdftex.def Info: semana7/Gang_Garrison_2.png used on input line 38.
-(pdftex.def)             Requested size: 390.25534pt x 292.7043pt.
-)
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana8/report.tex
-[8 <C:/Users/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/semana7/Gang_Garrison_2
-.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
-
-Overfull \hbox (23.14568pt too wide) in paragraph at lines 18--19
-[]\OT1/cmr/m/n/10.95 Real Ti-me Ren-de-ring: In-ter-sec-tions Ob-ject / Ob-ject
- []$\OT1/cmtt/m/n/10.95 http : / / www . realtimerendering .$
- []
-
-) (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana9/report.tex
-[9]) (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana10/report.tex
-[10]) (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana11/report.tex)
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana12/report.tex
-[11]) (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana13/report.tex)
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.bbl [12]
-Underfull \hbox (badness 2285) in paragraph at lines 25--31
-\OT1/cmr/m/n/10.95 nally Got Its Phy-sics Right.  []$\OT1/cmtt/m/n/10.95 http :
- / / www . scientificamerican . com / article /$
- []
-
-) [13]
+e/Dropbox/UCV/Pasantias/LabsVideojuegos/logoucv-eps-converted-to.pdf>]) [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
- (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.aux)
+
+(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D12DA8459BFF134A9C1BBF09BCD640EC;2151.
+(rerunfilecheck)             Checksum: 4946C719AEECF5735694F6AEA59DD199;195.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 18302 strings out of 493921
- 336289 string characters out of 3154503
- 411243 words of memory out of 3000000
- 21115 multiletter control sequences out of 15000+200000
- 8806 words of font info for 31 fonts, out of 3000000 for 9000
+ 18039 strings out of 493921
+ 330665 string characters out of 3154503
+ 409708 words of memory out of 3000000
+ 20994 multiletter control sequences out of 15000+200000
+ 5840 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,7n,80p,776b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,7n,80p,435b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbxti10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
-0.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (13 pages, 248307 bytes).
+ublic/amsfonts/cm/cmcsc10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (2 pages, 103927 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 379 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+
