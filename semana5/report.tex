@@ -1,19 +1,35 @@
 \begin{center}
 \textsc{\Large Laboratorio 5}~\\
-\emph{\large Vídeo Juegos, Audio}
+{\large Vídeo Juegos, Programación, Físicas}~\\
+\emph{Detección de Colisiones}
 \end{center}
+
 
 \section{Pre-Laboratorio}
 \todo[inline]{Por hacer.}
 
-\section{Introducción}
-Los primeros vídeo juegos no poseían audio hoy día los vídeo juegos son un medio audio-visual. El audio en los vídeo juegos puede ser separado en tres categorías: efectos de sonido, música y voces \cite{erikgamedevelopment}.
+\section{Definición}
+Consiste en el problema computacional de detectar la intersection entre dos o mas objetos. Ademas de detectar si dos objetos interceptan un sistema de colisión de objetos puede reportar tiempo y punto de impacto \cite{ericson_collision}.
 
-Los efectos de sonido son producidos modificando \emph{samples} de audio o replicando y grabando dichos efectos de sonido con objetos reales. Los efectos de sonido son importantes para proporcionar inmersión. 
+En una simulación física de colisiones se busca imitar la colisión entre uno o mas objetos de la forma mas precisa posible siguiendo las características físicas de los objetos en cuestión y las distintas propiedades de los materiales que los componen utilizando cuerpos rígidos (rigid-body physics) o cuerpos blandos (\emph{soft-body physics}).
 
-La música puede ser electrónica o sintetizada, o producida con instrumentos en vivo. Existen varios contextos en donde la música es presentada en el juego por ejemplo la música ambiental que busca reforzar el estado de animo o apariencia del juego, música especifica para menús y créditos, música para batallas, persecuciones o cualquier otro evento rápido y tenso.
+Mientras en un vídeo juego se busca simular colisiones de una forma aceptable, en tiempo real y robusta.
 
-Las voces son utilizadas para reforzar las interacciones entre personajes y sus personalidades.
+\section{Intersecciones Objeto / Objeto}
+Real Time Rendering: Intersections Object / Object \url{http://www.realtimerendering.com/intersections.html}. Este sitio presenta referencias a soluciones de intersecciones objeto / objeto, la mayoria de estas soluciones se encuentran en la serie \emph{Graphics Gems}. Muchos frameworks y bibliotecas para el desarrollo de vídeo juegos (o software general) ya tienen estas soluciones implementadas e incluso optimizadas \cite{rtr_intersections}.
+\section{Tecnicas y Optimizaciones Comunes}
+\subsection{Partición Espacial (Spatial Partitioning)}
+Existen una variedad de algoritmos utilizados para dividir un espacio virtual entre los mas comunes están los octrees, quadtrees y arboles BSP (binary space partitioning). Esta partición espacial se realiza para evitar determinar intersecciones entre objetos que no pertenecen a una misma área determinada por el algoritmo de partición espacial, de esta forma se disminuye el numero de comparaciones aumentando el desempeño o \emph{performance} \cite{sp_partition}.
+\subsection{Bounding Boxes o Bounding Volumes}
+\setlength\intextsep{0pt}
+\begin{wrapfigure}[11]{l}{0.3\linewidth}
+\includegraphics[width=\linewidth]{semana5/Hitbox.jpg}
+\caption{Hitboxes de un \emph{Combine} de \emph{Half Life 2} \cite{valve_hit}.}
+\label{fig:hitboxes}
+\end{wrapfigure}
+Usualmente rectángulos en 2D o cubos en 3D pero también es posible usar otras figuras como esferas, círculos, elipses, paralelogramos, envolventes convexas entre otras. Son usadas como un inicial test de colisión de tal forma que solo se determina la intersección con objetos dentro del bounding volume \cite{douglas_bbox}.
+\subsection{Hit Boxes}
+Al igual que un Bounding Box estos suelen ser cubos o rectángulos pero también pueden ser otras figuras, el uso de elipses o elipsoides es común. Para objetos animados es usual que los hit boxes estén enlazados a las partes que se mueven de tal forma que los hit boxes también se muevan y roten en correlación con el personaje u objeto al que pertenecen. Los hit boxes son utilizados para detectar colisiones unidireccionales como un objeto en intersección con un bala u otro proyectil. Son poco precisos para colisiones con \emph{feedback} como chocar contra una pared ya que la posición y orientación de los hit boxes cambia constantemente, este tipo de colisiones son mejor manejadas por bounding boxes alineadas a un eje \cite{valve_hit}. 
 
 \section{Actividad}
 \todo[inline]{Por hacer.}

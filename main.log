@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  9 JUN 2015 14:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  10 JUN 2015 18:11
 entering extended mode
 **main.tex
 (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.tex
@@ -898,46 +898,67 @@ Package epstopdf Info: Source file: <logoucv.eps>
 f logoucv.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<logoucv-eps-converted-to.pdf, id=22, 170.6375pt x 171.64125pt>
+<logoucv-eps-converted-to.pdf, id=46, 170.6375pt x 171.64125pt>
 File: logoucv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logoucv-eps-converted-to.pdf>
 Package pdftex.def Info: logoucv-eps-converted-to.pdf used on input line 52.
 (pdftex.def)             Requested size: 65.0pt x 65.38148pt.
 
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana5/report.tex
+(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana8/report.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 7.
+ine 8.
+
+<semana8/dishonored_menu.jpg, id=47, 638.385pt x 359.3425pt>
+File: semana8/dishonored_menu.jpg Graphic file (type jpg)
+
+<use semana8/dishonored_menu.jpg>
+Package pdftex.def Info: semana8/dishonored_menu.jpg used on input line 13.
+(pdftex.def)             Requested size: 173.44534pt x 97.63239pt.
 )
 (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.bbl [1
 
 {C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jos
-e/Dropbox/UCV/Pasantias/LabsVideojuegos/logoucv-eps-converted-to.pdf>]) [2]
+e/Dropbox/UCV/Pasantias/LabsVideojuegos/logoucv-eps-converted-to.pdf> <C:/Users
+/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/semana8/dishonored_menu.jpg>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+
+Underfull \hbox (badness 5741) in paragraph at lines 4--7
+[]\OT1/cmr/m/sc/10.95 GiantBomb, C.  \OT1/cmr/m/n/10.95 Op-tions Me-nu: Con-cep
+t.  []$\OT1/cmtt/m/n/10.95 http : / / www . giantbomb . com /$
+ []
+
+) [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
-
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.aux)
+ (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4946C719AEECF5735694F6AEA59DD199;195.
+(rerunfilecheck)             Checksum: 5396BCFBCAE2D99119DB210835AA2ECE;593.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 18039 strings out of 493921
- 330665 string characters out of 3154503
- 409708 words of memory out of 3000000
- 20994 multiletter control sequences out of 15000+200000
- 5840 words of font info for 21 fonts, out of 3000000 for 9000
+ 18094 strings out of 493921
+ 331435 string characters out of 3154503
+ 410708 words of memory out of 3000000
+ 21033 multiletter control sequences out of 15000+200000
+ 9064 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,7n,80p,435b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,7n,80p,882b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmcsc10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (2 pages, 103927 bytes).
+ublic/amsfonts/cm/cmbxti10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
+0.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10
+.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (2 pages, 177847 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

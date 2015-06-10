@@ -1,0 +1,15 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Pre-Laboratorio}{2}{section.1}
+\contentsline {section}{\numberline {2}\IeC {\textquestiondown }Qu\IeC {\'e} es un V\IeC {\'\i }deo Juego?}{2}{section.2}
+\contentsline {section}{\numberline {3}Breve Historia de los Videojuegos - Primera Generaci\IeC {\'o}n}{3}{section.3}
+\contentsline {section}{\numberline {4}Desarrollo de V\IeC {\'\i }deo Juegos}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Roles}{4}{subsection.4.1}
+\contentsline {section}{\numberline {5}Lenguajes y Herramientas}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}HTML5 y Javascript}{5}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Java}{6}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}C++}{6}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}C\#}{7}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Python}{7}{subsection.5.5}
+\contentsline {section}{\numberline {6}Dise\IeC {\~n}o de V\IeC {\'\i }deo Juego}{8}{section.6}
+\contentsline {section}{\numberline {7}Actividad}{8}{section.7}
+\contentsline {section}{Referencias}{8}{section*.5}
