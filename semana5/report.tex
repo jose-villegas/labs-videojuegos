@@ -11,7 +11,7 @@
 \section{Definición}
 Consiste en el problema computacional de detectar la intersection entre dos o mas objetos. Ademas de detectar si dos objetos interceptan un sistema de colisión de objetos puede reportar tiempo y punto de impacto \cite{ericson_collision}.
 
-En una simulación física de colisiones se busca imitar la colisión entre uno o mas objetos de la forma mas precisa posible siguiendo las características físicas de los objetos en cuestión y las distintas propiedades de los materiales que los componen utilizando cuerpos rígidos (rigid-body physics) o cuerpos blandos (\emph{soft-body physics}).
+En una simulación física de colisiones se busca imitar la colisión entre uno o mas objetos de la forma mas precisa posible siguiendo las características físicas de los objetos en cuestión y las distintas propiedades de los materiales que los componen utilizando cuerpos rígidos (rigid-body physics) o cuerpos blandos (\emph{soft-body physics}) \cite[p.~340]{jenkinscreatinggames}.
 
 Mientras en un vídeo juego se busca simular colisiones de una forma aceptable, en tiempo real y robusta.
 
@@ -24,7 +24,7 @@ Existen una variedad de algoritmos utilizados para dividir un espacio virtual en
 \setlength\intextsep{0pt}
 \begin{wrapfigure}[11]{l}{0.3\linewidth}
 \includegraphics[width=\linewidth]{semana5/Hitbox.jpg}
-\caption{Hitboxes de un \emph{Combine} de \emph{Half Life 2} \cite{valve_hit}.}
+\caption{Hitboxes de un \emph{Combine} de \emph{Half Life 2} \cite{valve_hit} \cite{halflife2}.}
 \label{fig:hitboxes}
 \end{wrapfigure}
 Usualmente rectángulos en 2D o cubos en 3D pero también es posible usar otras figuras como esferas, círculos, elipses, paralelogramos, envolventes convexas entre otras. Son usadas como un inicial test de colisión de tal forma que solo se determina la intersección con objetos dentro del bounding volume \cite{douglas_bbox}.
