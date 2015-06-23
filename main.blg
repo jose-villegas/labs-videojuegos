@@ -1,3 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: acm.bst
 Database file #1: references.bib
+Warning--entry type for "okami" isn't style-file defined
+--line 28 of file references.bib
+Warning--entry type for "sumie" isn't style-file defined
+--line 117 of file references.bib
+(There were 2 warnings)
