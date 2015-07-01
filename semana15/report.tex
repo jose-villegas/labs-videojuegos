@@ -8,11 +8,17 @@
 \todo[inline]{Por hacer.}
 
 \section{Introducción}
-Los vídeo juegos multijugador son aquellos donde dos a mas personas interaccionan en el mismo juego, la forma en la que interaccionan depende el objetivo y alcance del vídeo juego, esta puede ser de forma cooperativa o competitiva.
+Los vídeo juegos multijugador son aquellos donde dos a mas personas interaccionan en el mismo juego, la forma en la que interaccionan depende el objetivo y alcance del vídeo juego, esta puede ser de forma cooperativa o competitiva \cite{valve_networking}.
 
 Existen distintas formas de permitir la adición de múltiples jugadores una es de forma local utilizada usualmente en vídeo juegos para computadores personales donde varios jugadores se conectan a través de una red local, otra forma es de forma remota a través del Internet.
 
-La programación del networking en un vídeo juego consiste en administrar la data enviada y recibida a través de diferentes métodos de conexión de tal forma que el software responda apropiadamente a distintas acciones entre varios jugadores \cite{valve_networking}.
+La programación del networking en un vídeo juego consiste en administrar la data enviada y recibida a través de diferentes métodos de conexión de tal forma que el software responda apropiadamente a distintas acciones entre varios jugadores \cite[p.~355]{jenkinscreatinggames}.
 
+\section{Programación Networking}
+Los computadores de comunican unos entre otros utilizando redes de computadoras. La red física es construida a partir de cables y transmisiones radiales, pero lo de mayor importancia es la red virtual de protocoles de software construida por encima de esta red física. La responsabilidad principal del networking en los vídeo juegos es ayudar a jugadores encontrarse unos a otros y mantener el estado de juego sincronizado entre estos. Por desgracia la información toma un tiempo para ser transmitida a través de una red, de tal forma que cuando un computador comunica su estado a otra este estado ya esta desactualizado. Cuando los jugadores perciben esta tardanza se le llama \emph{lag} \cite[p.~356]{jenkinscreatinggames}.
+
+El reto del networking en los vídeo juegos es esconder el lag de los jugadores ademas de proveen una infraestructura de comunicaciones confiable y segura. Comparado con otras areas de la programacion de video juegos los algoritmos en networking no son extremadamente complejos y tienden a representar una pequeña parte del código final del juego. Sin embargo debido a la existencia de eventos impredecibles, como interferencias, congestión de red, o hackers los programadores deben defender el juego en contra de estos eventos en gran parte del código fuente.
+
+El networking también se complica aun mas basado en el hecho de que este interacciona con prácticamente todo el código del juego. El juego debe sincronizar su estado con otros jugadores, el modelo de red afecta indirectamente toda pieza de código que toque el estado del juego. Es por esto que no existe solución única al networking en los vídeo juegos, el diseño del modelo de comunicaciones debe ser específicamente creado para trabajar con las mecánicas del juego y como el juego representa su estado actual.
 \section{Actividad}
 \todo[inline]{Por hacer.}

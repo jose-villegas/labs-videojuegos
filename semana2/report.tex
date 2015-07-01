@@ -5,11 +5,20 @@
 \end{center}
 
 \section{Pre-Laboratorio}
-\todo[inline]{Por hacer.}
+\begin{itemize}
+\item Investigar los siguientes conceptos:
+\begin{enumerate}
+  \item Vídeo juegos en primera persona.
+  \item Vídeo juegos en tercera persona.
+  \item Side-scrollers.
+  \item Perspectiva.
+  \item Proyección Ortogonal.
+\end{enumerate}
+\end{itemize}
 \section{Definición}
 \begin{wrapfigure}[7]{l}{0.4\linewidth}
 \includegraphics[width=\linewidth]{semana2/frustum.eps}
-\caption{\emph{Viewing Frustum} de una Camara Virtual donde se muestra el Far y Near Clipping Plane \cite{microsoft_frustum}.}
+\caption{\emph{Viewing Frustum} de una cámara virtual donde se muestra el far y near clipping plane \cite{microsoft_frustum}.}
 \label{fig:frustum}
 \end{wrapfigure}
 En los vídeo juegos se utilizan cámaras virtuales para mostrar un mundo 3D o 2D en algún dispositivo visual. Un sistema virtual de cámaras se encarga de controlar una o mas cámaras en un escenario de juego. Usualmente la cámara en muchos frameworks y bibliotecas para desarrollo de vídeo juegos no es mas que otro objeto en escena \cite{fund_gamedesign}.
@@ -20,7 +29,7 @@ Algunos conceptos necesarios para entender el uso de cámaras en la gran mayorí
 \setlength\intextsep{0pt}
 \begin{wrapfigure}[7]{r}{0.45\linewidth}
 \includegraphics[width=\linewidth]{semana2/projections.png}
-\caption{Proyección Ortogonal y Perspectiva.}
+\caption{Proyección ortogonal y perspectiva.}
 \end{wrapfigure}
 Existen dos tipos proyección en la mayoría de los frameworks y bibliotecas para el desarrollo de vídeo juegos estos son proyección perspectiva y proyección ortogonal.
 \subsubsection{Perspectiva}
