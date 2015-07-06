@@ -1,18 +1,20 @@
 \begin{thebibliography}{1}
 
-\bibitem{erikgamedevelopment}
-{\sc Bethke, E.}
-\newblock {\em Game Development and Production}.
-\newblock Wordware Game Developer's Library, 2003.
+\bibitem{eric_ragdoll}
+{\sc Brown, E.}
+\newblock {Ragdoll Physics On The DS}.
+\newblock
+  \url{http://www.gamasutra.com/view/feature/132309/ragdoll_physics_on_the_ds.php},
+  2009.
 
-\bibitem{bobbatesgamedesign}
-{\sc Gates, B.}
-\newblock {\em Game Design (2nd Edition)}.
-\newblock Thomson Course Technology, 2004.
+\bibitem{ian_gamephysics}
+{\sc Millington, I.}
+\newblock {\em {Game Physics Engine Development}}.
+\newblock Morgan Kaufmann, 2007.
 
-\bibitem{valve_audio}
-{\sc Valve}.
-\newblock {Developers Community Wiki: Sound and Music}.
-\newblock \url{https://developer.valvesoftware.com/wiki/Audio}.
+\bibitem{jenkinscreatinggames}
+{\sc Morgan~McGuire, O. C.~J.}
+\newblock {\em Creating Games}.
+\newblock A K Peters, 2008.
 
 \end{thebibliography}
