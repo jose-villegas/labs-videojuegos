@@ -5,7 +5,19 @@
 \end{center}
 
 \section{Pre-Laboratorio}
-\todo[inline]{Por hacer.}
+\begin{itemize}
+\item Investigar los siguientes términos:
+\begin{enumerate}
+  \item Lag.
+  \item Ping.
+  \item Game State.
+  \item Sincronización.
+\end{enumerate}
+\item De algún juego que conozca analice.
+\begin{enumerate}
+  \item ¿Existe en este juego la posibilidad de jugar con otros jugadores? ¿En que consiste el modo multijugador en tal caso? ¿Como cree que se mantienen ambas instancias del juego sincronizadas? 
+\end{enumerate}
+\end{itemize}
 
 \section{Introducción}
 Los vídeo juegos multijugador son aquellos donde dos a mas personas interaccionan en el mismo juego, la forma en la que interaccionan depende el objetivo y alcance del vídeo juego, esta puede ser de forma cooperativa o competitiva \cite{valve_networking}.
@@ -19,6 +31,6 @@ Los computadores de comunican unos entre otros utilizando redes de computadoras.
 
 El reto del networking en los vídeo juegos es esconder el lag de los jugadores ademas de proveen una infraestructura de comunicaciones confiable y segura. Comparado con otras areas de la programacion de video juegos los algoritmos en networking no son extremadamente complejos y tienden a representar una pequeña parte del código final del juego. Sin embargo debido a la existencia de eventos impredecibles, como interferencias, congestión de red, o hackers los programadores deben defender el juego en contra de estos eventos en gran parte del código fuente.
 
-El networking también se complica aun mas basado en el hecho de que este interacciona con prácticamente todo el código del juego. El juego debe sincronizar su estado con otros jugadores, el modelo de red afecta indirectamente toda pieza de código que toque el estado del juego. Es por esto que no existe solución única al networking en los vídeo juegos, el diseño del modelo de comunicaciones debe ser específicamente creado para trabajar con las mecánicas del juego y como el juego representa su estado actual.
+El networking también se complica aun mas basado en el hecho de que este interacciona con prácticamente todo el código del juego. El juego debe sincronizar su estado con otros jugadores, el modelo de red afecta indirectamente toda pieza de código que toque el estado del juego. Es por esto que no existe solución única al networking en los vídeo juegos, el diseño del modelo de comunicaciones debe ser específicamente creado para trabajar con las mecánicas del juego y como el juego representa su estado actual \cite{netaoe}.
 \section{Actividad}
 \todo[inline]{Por hacer.}

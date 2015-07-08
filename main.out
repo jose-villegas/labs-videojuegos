@@ -1,6 +1,16 @@
 \BOOKMARK [1][-]{section.1}{Pre-Laboratorio}{}% 1
-\BOOKMARK [1][-]{section.2}{Introducci\363n}{}% 2
-\BOOKMARK [1][-]{section.3}{Simulaciones F\355sicas}{}% 3
-\BOOKMARK [1][-]{section.4}{F\355sicas Ragdoll}{}% 4
-\BOOKMARK [1][-]{section.5}{Actividad}{}% 5
-\BOOKMARK [1][-]{section*.4}{Referencias}{}% 6
+\BOOKMARK [1][-]{section.2}{Definici\363n}{}% 2
+\BOOKMARK [1][-]{section.3}{Conceptos}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Tipos de Proyecci\363n}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Perspectiva}{subsection.3.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Ortogonal}{subsection.3.1}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Field Of View \(FoV\) o Campo de Vista}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Clipping Planes o Planos de Clipping}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Near Clipping Plane o Plano de Clipping Cercano}{subsection.3.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Far Clipping Plane o Plano de Clipping Lejano}{subsection.3.3}% 10
+\BOOKMARK [1][-]{section.4}{Tipos de Sistemas de C\341mara en V\355deo Juegos}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Est\341ticas \(Fixed\)}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Seguidoras \(Tracking\)}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.3}{Interactivas \(Interactive\)}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Actividad}{}% 15
+\BOOKMARK [1][-]{section*.7}{Referencias}{}% 16
