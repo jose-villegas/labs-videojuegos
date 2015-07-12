@@ -6,33 +6,39 @@
 
 \section{Pre-Laboratorio}
 \begin{itemize}
-\item Investigar los siguientes conceptos:
+\item Investigar:
 \begin{enumerate}
   \item Vídeo juegos en primera persona.
   \item Vídeo juegos en tercera persona.
   \item Side-scrollers.
   \item Perspectiva.
   \item Proyección Ortogonal.
+  \item Generos de video juegos.
+\end{enumerate}
+\item Investigar segun su framework, biblioteca o motor de juego escogido.
+\begin{enumerate}
+	\item Implementacion de camaras en el juego.
+	\item Manejo de escenas.
+	\item Scripting o programación de la logica de juego.
 \end{enumerate}
 \end{itemize}
 \section{Definición}
-\begin{wrapfigure}[7]{l}{0.4\linewidth}
+En los vídeo juegos se utilizan cámaras virtuales para mostrar un mundo 3D o 2D en algún dispositivo visual. Un sistema virtual de cámaras se encarga de controlar una o mas cámaras en un escenario de juego. Usualmente la cámara en muchos frameworks y bibliotecas para desarrollo de vídeo juegos no es mas que otro objeto en escena \cite{fund_gamedesign}.
+\section{Conceptos}
+\begin{wrapfigure}[7]{l}{0.3\linewidth}
 \includegraphics[width=\linewidth]{semana2/frustum.eps}
 \caption{\emph{Viewing Frustum} de una cámara virtual donde se muestra el far y near clipping plane \cite{microsoft_frustum}.}
 \label{fig:frustum}
 \end{wrapfigure}
-En los vídeo juegos se utilizan cámaras virtuales para mostrar un mundo 3D o 2D en algún dispositivo visual. Un sistema virtual de cámaras se encarga de controlar una o mas cámaras en un escenario de juego. Usualmente la cámara en muchos frameworks y bibliotecas para desarrollo de vídeo juegos no es mas que otro objeto en escena \cite{fund_gamedesign}.
-\newpage
-\section{Conceptos}
 Algunos conceptos necesarios para entender el uso de cámaras en la gran mayoría de los frameworks, bibliotecas y motores para el desarrollo de video juegos \cite{unity_camera}.
 \subsection{Tipos de Proyección}
+Existen dos tipos proyección en la mayoría de los frameworks y bibliotecas para el desarrollo de vídeo juegos estos son proyección perspectiva y proyección ortogonal.
+\subsubsection{Perspectiva}
 \setlength\intextsep{0pt}
-\begin{wrapfigure}[7]{r}{0.45\linewidth}
+\begin{wrapfigure}[6]{r}{0.3\linewidth}
 \includegraphics[width=\linewidth]{semana2/projections.png}
 \caption{Proyección ortogonal y perspectiva.}
 \end{wrapfigure}
-Existen dos tipos proyección en la mayoría de los frameworks y bibliotecas para el desarrollo de vídeo juegos estos son proyección perspectiva y proyección ortogonal.
-\subsubsection{Perspectiva}
 Es la forma natural en que el ojo humano percibe una escena, en la proyección perspectiva los objetos distantes se ven mas pequeños que los objetos cercanos dando profundidad a distintos objetos en una escena. Este tipo de proyección es utilizada usualmente en juegos 3D.
 \subsubsection{Ortogonal}
 En una proyección perspectiva un objeto lejano es mas pequeño que un objeto cercano, en proyección ortogonal se ignora este efecto, eliminando la profundidad de escena. Este tipo de perspectiva es utilizada en muchos juegos 2D.
@@ -69,4 +75,13 @@ Este tipo de cámara sigue a algún objeto en el juego usualmente el personaje p
 \end{wrapfigure}
 Las cámaras interactivas son cámaras que cambian su posición, campo visual u orientación según distintas situaciones, lugares o intereses del juego y sus desarrolladores, usualmente estas cámaras poseen alguna forma de inteligencia artificial. En su mayoría las cámaras interactivas son cámaras tracking mejoradas, estas siguen al personaje como lo hace una cámara tracking pero su posición y orientación puede cambiar si estas se ven obstruidas por algún objeto o cambian sus parámetros para mostrar objetos de interés claramente evitando de esta forma las desventajas principales de una cámara tracking. Algunos ejemplos de juegos con este tipo de camara son \emph{Super Mario 64}, \emph{Super Mario Sunshine}, \emph{The Legend of Zelda: The Wind Waker.}
 \section{Actividad}
-\todo[inline]{Por hacer.}
+\begin{itemize}
+\item Durante esta actividad se creara la base del proyecto y se implementara inicialmente la cámara según el diseño de su juego. Los objetivos de la actividad son:
+\begin{enumerate}
+  \item Crear una pequeña escena con \emph{placeholders} \footnote{Un \emph{placeholder} no es mas que un procurador de un objeto, de manera que el \emph{placeholder} es remplazado en un futuro por el objeto real.}.
+  \item Implementar la cámara principal de juego según el diseño del juego.
+  \item Debe crear una estructura de datos (ejemplo una clase) que defina a los actores principales en su mundo de juego, incluyendo el jugador principal. Esto depende directamente del diseño del juego.
+  \item Debe asociar esta estructura a un placeholder que representa cada actor, incluyendo el jugador principal.
+  \item Asocie en la lógica de juego (esto se realiza usualmente a través de scripts u otro medio que provea las herramientas que eligió) un comportamiento a uno de los actores en escena de manera que esta accion se pueda observar a través de la cámara (ejemplo moverse constantemente)
+\end{enumerate}
+\end{itemize}
