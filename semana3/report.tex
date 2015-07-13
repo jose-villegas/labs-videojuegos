@@ -1,37 +1,39 @@
--\begin{center}
+\begin{center}
 \textsc{\Large Laboratorio 3}~\\
 {\large Vídeo Juegos, Programación}~\\
-\emph{Sprites}
+\emph{Interacción y \emph{Feedback} con Dispositivos de Entrada}
 \end{center}
 
 \section{Pre-Laboratorio}
 \begin{itemize}
 \item Investigar los siguientes conceptos:
 \begin{enumerate}
-  \item Texturas (en cuanto a computación gráfica).
-  \item Planos o quads.
-  \item Rasterizacion de triangulos.
-  \item Matrices de proyección, vista y modelo (projection matrix, view matrix, model matrix)
-  \item Espacio de camara, de mundo, de objeto y de pantalla (camera space, world space, object space, screen space)
+  \item Feedback.
+  \item Háptica o Haptics.
 \end{enumerate}
+\item Investigue al menos 3 dispositivos de entrada utilizados en los vídeo juegos.
 \end{itemize}
-\section{Definición}
+
+\section{Introducción}
 \setlength\intextsep{0pt}
-\begin{wrapfigure}[12]{l}{0.15\linewidth}
-\includegraphics[width=\linewidth]{semana3/sprite_ej1.png} 
-\caption{\emph{Sprite} de una unidad en Battle for Wesnoth \cite{wesnothgame}}
+\begin{wrapfigure}[11]{l}{0.3\linewidth}
+\includegraphics[width=\linewidth]{media/wasd.jpg}
+\caption{La combinación de teclas \emph{WASD} es comúnmente utilizadas para controlar el movimiento de un personaje.}
+\label{fig:wasd}
 \end{wrapfigure}
+Los vídeo juegos son un medio interactivo que requiere del input del usuario, por esto los juegos cuentan con distintos tipos de dispositivos de entrada que proporcionan \emph{feedback} visual al realizar alguna acción con dicho dispositivo. El dispositivo mas conocido es el control de vídeo juego o mando, utilizado comúnmente en consolas, en otras plataformas el dispositivo principal puede variar como en el caso de los juegos de computador personal el uso del mouse y teclado es mas común, los dispositivos de entrada no suelen ser exclusivos de la plataformas por tanto existen mandos para el computador personal e incluso teclados para las consolas \cite[p.~395]{jenkinscreatinggames}.
+\section{Feedback}
+La interacción básica entre un jugador y un juego es sencilla, si el jugador hace el algo entonces el juego hace también algo en forma de respuesta. Esto se le llama \emph{feedback} y es lo que diferencia a un juego de cualquier otra medio de entretenimiento como películas o música \cite[p.~18]{bobbatesgamedesign}.
 
-En computación gráfica un \emph{sprite} es una imagen 2D o animación que es utilizada en una escena.
-
-Los \emph{sprites} fueron originalmente inventados como un método rápido de composición entre varias imágenes en vídeo juegos 2D utilizando hardware especializado. A medida que el performance de los computadores mejoro esta optimización se convirtió innecesario y el termino \emph{sprites} hoy día se refiere específicamente a imágenes 2D que son integradas o utilizadas en una escena \cite{sprites_siggraph}.
-
-Ahora usualmente \emph{sprite} se refiere a imágenes 2D parcialmente transparentes que son proyectadas a un plano en una escena 3D o 2D.~\\[1cm]
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.95\linewidth]{semana3/bills.eps} 
-\caption{Tecnicas para alinear planos sprites}
-\end{figure}
+Cada entrada al juego debe tener una respuesta discernible. Esta entrada puede tener muchas formas dependiendo de la plataforma y los dispositivos de entrada, la respuesta usual es de tipo visual, auditiva e incluso táctil en caso de estar utilizando un control de juego con vibración.
 
 \section{Actividad}
-\todo[inline]{Por hacer.}
+Continuando con la programación de la lógica de juego en la actividad del laboratorio dos usted ahora debe seguir programando la base del juego y lógica principal de todos los actores en su mundo de juego.
+\begin{itemize}
+\item Debe cumplir los siguientes objetivos.
+\begin{enumerate}
+  \item Agregar variadas acciones relacionadas con la mecánica de juego al jugador principal, estas acciones deben ahora ser realizadas utilizando teclado y mouse.
+  \item Programar lógica de actores en el mundo de juego, expandir la lógica de los actores que interaccionan con el jugador para completar su idea en cuanto mecánicas de juego.
+  \item Agregar serie de acciones relacionadas con el estado general del juego (pausa, salir, reiniciar), estas deben ser ejecutadas a través del teclado.
+\end{enumerate}
+\end{itemize}

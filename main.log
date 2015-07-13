@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  9 JUL 2015 11:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  13 JUL 2015 16:11
 entering extended mode
 **main.tex
 (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.tex
@@ -898,66 +898,101 @@ Package epstopdf Info: Source file: <logoucv.eps>
 f logoucv.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<logoucv-eps-converted-to.pdf, id=26, 170.6375pt x 171.64125pt>
+<logoucv-eps-converted-to.pdf, id=22, 170.6375pt x 171.64125pt>
 File: logoucv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logoucv-eps-converted-to.pdf>
 Package pdftex.def Info: logoucv-eps-converted-to.pdf used on input line 52.
 (pdftex.def)             Requested size: 65.0pt x 65.38148pt.
 
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana7/report.tex
+(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana4/report.tex
+<media/sprite_ej1.png, id=23, 72.27pt x 72.27pt>
+File: media/sprite_ej1.png Graphic file (type png)
+ <use media/sprite_ej1.png>
+Package pdftex.def Info: media/sprite_ej1.png used on input line 21.
+(pdftex.def)             Requested size: 65.04034pt x 65.04347pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]\OT1/cmr/m/n/10.95 Figura 1:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\OT1/cmr/m/n/10.95 uni-dad en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\OT1/cmr/m/n/10.95 Battle for
+ []
+
+Package epstopdf Info: Source file: <media/bills.eps>
+(epstopdf)                    date: 2015-05-21 17:00:24
+(epstopdf)                    size: 361766 bytes
+(epstopdf)             Output file: <media/bills-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-08 17:44:57
+(epstopdf)                    size: 5929 bytes
+(epstopdf)             Command: <epstopdf --outfile=media/bills-eps-converted-t
+o.pdf media/bills.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+<media/bills-eps-converted-to.pdf, id=28, 616.3025pt x 186.6975pt>
+File: media/bills-eps-converted-to.pdf Graphic file (type pdf)
+
+<use media/bills-eps-converted-to.pdf>
+Package pdftex.def Info: media/bills-eps-converted-to.pdf used on input line 32
+.
+(pdftex.def)             Requested size: 411.93767pt x 124.79039pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+
+ []
+
 [1
 
 {C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jos
-e/Dropbox/UCV/Pasantias/LabsVideojuegos/logoucv-eps-converted-to.pdf>]
-<semana7/arcade-machines.jpg, id=45, 301.125pt x 301.125pt>
-File: semana7/arcade-machines.jpg Graphic file (type jpg)
-
-<use semana7/arcade-machines.jpg>
-Package pdftex.def Info: semana7/arcade-machines.jpg used on input line 27.
-(pdftex.def)             Requested size: 130.08731pt x 130.09232pt.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 31
-.
-
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 35.
-) (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.bbl
+e/Dropbox/UCV/Pasantias/LabsVideojuegos/logoucv-eps-converted-to.pdf> <C:/Users
+/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/media/sprite_ej1.png>])
+(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.bbl
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
-) [2 <C:/Users/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/semana7/arcade-machin
-es.jpg>]
+ [2 <C:/Users/Jose/Dropbox/UCV/Pasantias/LabsVideojuegos/media/bills-eps-conver
+ted-to.pdf>]
+Underfull \hbox (badness 1394) in paragraph at lines 8--13
+[]\OT1/cmr/m/sc/10.95 Collins, S.  \OT1/cmr/m/n/10.95 ACM SIG-GRAPH: Ga-me Grap
+-hics Du-ring the 8-bit Com-pu-ter
+ []
+
+) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
-
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.aux)
+ (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C919439E0C24C9798AF1F5225B5F22F4;247.
+(rerunfilecheck)             Checksum: 80F9067459A4D6ED6C1FB7FF13C9AB41;193.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 18087 strings out of 493921
- 331277 string characters out of 3154503
- 409708 words of memory out of 3000000
- 21028 multiletter control sequences out of 15000+200000
+ 18063 strings out of 493921
+ 330479 string characters out of 3154503
+ 410708 words of memory out of 3000000
+ 20997 multiletter control sequences out of 15000+200000
  8398 words of font info for 30 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,7n,80p,514b,617s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,7n,75p,472b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
 fb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.p
 fb>
-Output written on main.pdf (2 pages, 150916 bytes).
+Output written on main.pdf (3 pages, 126814 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 60 words of extra memory for PDF output out of 10000 (max. 10000000)
 

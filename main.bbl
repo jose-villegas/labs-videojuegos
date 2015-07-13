@@ -1,13 +1,14 @@
 \begin{thebibliography}{1}
 
-\bibitem{arcade_score}
-{Arcade Database}.
-\newblock \url{http://gamesdbase.com/system-arcade.aspx}.
+\bibitem{wesnothgame}
+{The Battle for Wesnoth}.
+\newblock \url{http://www.wesnoth.org/}.
 
-\bibitem{colm_tracing}
-{\sc Naish, C.}
-\newblock {Software Tracing, The Catch 22}.
-\newblock \url{http://www.debuggingexperts.com/software-tracing-catch-22},
-  2010.
+\bibitem{sprites_siggraph}
+{\sc Collins, S.}
+\newblock {ACM SIGGRAPH: Game Graphics During the 8-bit Computer Era}.
+\newblock
+  \url{http://www.siggraph.org/publications/newsletter/v32n2/contributions/collins.html},
+  1998.
 
 \end{thebibliography}
