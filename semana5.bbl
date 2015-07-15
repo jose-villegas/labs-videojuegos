@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{rtr_intersections}
+{\sc Brown, E.}
+\newblock {Object/Object Intersection}.
+\newblock \url{http://www.realtimerendering.com/intersections.html}, 2011.
+
+\bibitem{douglas_bbox}
+{\sc Caldwell, D.~R.}
+\newblock {Unlocking the Mysteries of the Bounding Box}.
+\newblock
+  \url{http://www.stonybrook.edu/libmap/coordinates/seriesa/no2/a2.htm}, 2005.
+
+\bibitem{ericson_collision}
+{\sc Ericson, C.}
+\newblock {\em Real-time Collision Detection}.
+\newblock Elsevier, 2005.
+
+\bibitem{jenkinscreatinggames}
+{\sc Morgan~McGuire, O. C.~J.}
+\newblock {\em Creating Games}.
+\newblock A K Peters, 2008.
+
+\bibitem{sp_partition}
+{\sc Nystrom, B.}
+\newblock {Spatial Partition - Game Programming Patterns / Optimization
+  Patterns}.
+\newblock
+  \url{http://www.stonybrook.edu/libmap/coordinates/seriesa/no2/a2.htm}, 2014.
+
+\bibitem{valve_hit}
+{\sc Valve}.
+\newblock {Developers Community Wiki: Hitbox}.
+\newblock \url{https://developer.valvesoftware.com/wiki/Hitbox}.
+
+\bibitem{halflife2}
+{\sc {\relax Valve Software}}.
+\newblock {Half Life 2}.
+\newblock \url{http://store.steampowered.com/app/220/?snr=1_5_9__300}, 2004.
+
+\end{thebibliography}

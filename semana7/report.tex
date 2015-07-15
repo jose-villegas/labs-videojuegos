@@ -23,7 +23,7 @@
 Los vídeo juegos actuales son piezas de software de gran complejidad por lo tanto mantener un historial de información durante la ejecución del programa puede ser de inmensa ayuda para distintos propósitos. Esta información es usualmente utilizada para debugging pero dependiendo del tipo de información guardada esta puede ser usada para una gran cantidad de propósitos \cite{colm_tracing}.
 \newpage
 \setlength\intextsep{0pt}
-\begin{wrapfigure}[11]{r}{0.3\linewidth}
+\begin{wrapfigure}[9]{r}{0.3\linewidth}
 \includegraphics[width=\linewidth]{media/arcade-machines.jpg}
 \caption{En los arcade juegan multiples usuarios \cite{arcade_score}.}
 \label{fig:arcade}
@@ -32,4 +32,8 @@ Los vídeo juegos actuales son piezas de software de gran complejidad por lo tan
 Los vídeo juegos usualmente puede ser jugados por mas de un usuario incluso si este vídeo juego es de un solo jugador, con cada usuario teniendo su propia sesión de juego, esta sesión de juego puede guardar cosas tan sencillas como el nombre de usuario para propósitos de personalización o datos mas complejos como actual posición en el transcurso del juego, puntuación, logros, objetivos actuales, etcétera, todo esto dependiente del diseño del juego.
 
 \section{Actividad}
-\todo[inline]{Por hacer.}
+En esta actividad debe expandir sobre el básico historial de eventos en actividades anteriores, creando finalmente un sistema de event logging completo para su juego con el que pueda de manera sencilla extraer de este información necesaria para guardar el progreso del jugador y permitir la existencia de varios usuarios.
+\begin{itemize}
+\item Debe usted agregar toda clase de información de eventos y/o acciones realizadas en su juego en sistema de event logging que vea necesario para guardar información del progreso del jugador y su desempeño en el juego, considere también según su diseño de juego eventos y/o acciones que crea necesario guardar información de estas.
+\item Utilizando el progreso guardado del jugador se debe poder guardar y cargar una partida con el teclado o alguna interfaz básica si lo desea (hasta ahora no ha sido requerimiento incorporar interfaces al juego)
+\end{itemize}

@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{guildwars}
+{\sc {\relax ArenaNet}}.
+\newblock {Guild Wars}.
+\newblock \url{http://www.guildwars.com/en/}, 2005.
+
+\bibitem{diablo}
+{\sc {\relax Blizzard Entertainment}}.
+\newblock {Diablo}.
+\newblock \url{http://www.ign.com/games/diablo/pc-1890}, 1997.
+
+\bibitem{starcraft}
+{\sc {\relax Blizzard Entertainment}}.
+\newblock {StarCraft}.
+\newblock \url{http://www.ign.com/games/starcraft/pc-2159}, 1998.
+
+\bibitem{motivationdesign}
+{\sc Ghozland, D.}
+\newblock {Design for Motivation}.
+\newblock
+  \url{http://www.gamasutra.com/view/feature/1419/designing_for_motivation.php?print=1},
+  2007.
+
+\bibitem{jenkinscreatinggames}
+{\sc Morgan~McGuire, O. C.~J.}
+\newblock {\em Creating Games}.
+\newblock A K Peters, 2008.
+
+\end{thebibliography}

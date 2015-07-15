@@ -1,0 +1,22 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: semana2.aux
+The style file: acm.bst
+Database file #1: references.bib
+Warning--entry type for "supermario64" isn't style-file defined
+--line 85 of file references.bib
+Warning--entry type for "residentevil2" isn't style-file defined
+--line 92 of file references.bib
+Warning--entry type for "crashbandicoot" isn't style-file defined
+--line 99 of file references.bib
+Warning--entry type for "microsoft_frustum" isn't style-file defined
+--line 224 of file references.bib
+Warning--entry type for "res5_review" isn't style-file defined
+--line 238 of file references.bib
+Warning--entry type for "fixed_camera" isn't style-file defined
+--line 245 of file references.bib
+Warning--entry type for "unity_camera" isn't style-file defined
+--line 252 of file references.bib
+Warning--entry type for "feng_fovy" isn't style-file defined
+--line 259 of file references.bib
+Warning--to sort, need author or key in unity_camera
+Warning--to sort, need author or key in feng_fovy
+(There were 10 warnings)

@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{netaoe}
+{\sc Mark~Terrano, P.~B.}
+\newblock {1500 Archers on a 28.8: Network Programming in Age of Empires and
+  Beyond}.
+\newblock
+  \url{http://www.gamasutra.com/view/feature/131503/1500_archers_on_a_288_network_.php?page=2},
+  2001.
+
+\bibitem{jenkinscreatinggames}
+{\sc Morgan~McGuire, O. C.~J.}
+\newblock {\em Creating Games}.
+\newblock A K Peters, 2008.
+
+\bibitem{valve_networking}
+{\sc Valve}.
+\newblock {Developers Community Wiki: Source Multiplayer Networking}.
+\newblock
+  \url{https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking}.
+
+\end{thebibliography}

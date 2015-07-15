@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{erikgamedevelopment}
+{\sc Bethke, E.}
+\newblock {\em Game Development and Production}.
+\newblock Wordware Game Developer's Library, 2003.
+
+\bibitem{bobbatesgamedesign}
+{\sc Gates, B.}
+\newblock {\em Game Design (2nd Edition)}.
+\newblock Thomson Course Technology, 2004.
+
+\bibitem{valve_audio}
+{\sc Valve}.
+\newblock {Developers Community Wiki: Sound and Music}.
+\newblock \url{https://developer.valvesoftware.com/wiki/Audio}.
+
+\end{thebibliography}

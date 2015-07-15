@@ -18,6 +18,7 @@
   \item ¿Es el diseño de las interfaces concorde con el ambiente del juego?
   \item ¿Considera las interfaces de este juego sencillas, sustanciales en información y agradables a la vista?
 \end{enumerate}
+\item Según su framework, biblioteca o motor escogido debe investigar como integrar interfaces de juego. Se recomienda practicar ejemplos.
 \end{itemize}
 
 \section{Introducción}
@@ -26,18 +27,18 @@ Crear elegantes, atractivas pero a las vez funcionales interfaces es uno de los 
 Los vídeo juegos durante su ejecución presentan variados sistemas de interfaces, menús y pantallas de información al usuario, en la mayoría de los casos los juegos presentan como mínimo una pantalla de inicio con la opción de empezar el juego y salir de el mismo, otro menús muy común es el menú de  opciones en el cual se presentan una variedad de personificaciones sobre ciertos parámetros del juego \cite{gb_optionsmenu}. Es usual que en plataformas como el computador personal se presenten mayor numero de opciones en el menú de opciones tales como opciones gráficas y de performance debido a la variada cantidad de configuraciones de hardware, en otras plataformas como las consolas es común que solo se presenten modificaciones sobre el audio del juego, dificultad o re-configuración de los controles de juego.
 
 \section{Menús e Interfaces Comunes}
+\setlength\intextsep{0pt}
+\begin{wrapfigure}[9]{l}{0.4\linewidth}
+\includegraphics[width=\linewidth]{media/doom_start.png}
+\caption{Menu de Inicio del juego \emph{DOOM II} presenta inicio de juego, opciones, guardar y cargar partidas y salida del juego \cite{doomii}.}
+\label{fig:doom}
+\end{wrapfigure}
 Las necesidades de interfaces, pantallas y menús cambian según los requerimientos de diseño de cada juego, sin embargo se presentan acá los componentes de interfaz y menús encontradas en la mayoría de los vídeo juegos actuales.
 \subsection{Menú de Inicio o Menú Principal (Start Menu o Main Menu)}
 Es la primera interfaz que encuentra el usuario al iniciar el juego, presenta por lo menos la opcion de iniciar el juego y salir del mismo \cite[p.~28]{jenkinscreatinggames}, tambien se suelen incluir opciones como ir al \emph{Menú de Opciones}, ir al \emph{Menú de Partidas}, ver créditos entre otras \cite{mainmenu}.~\\
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.55\linewidth]{media/doom_start.png} 
-\caption{Menu de Inicio del juego \emph{DOOM II} presenta inicio de juego, opciones, guardar y cargar partidas y salida del juego \cite{doomii}.}
-\end{figure}
-
 \subsection{Menú de Opciones (Options Menu)}
-Es un menú donde se presenta distintas opciones para modificar el juego, usualmente como mínimo se presentan controles de volumen/audio y dificultad, el menú de opciones suele dividirse en distintas ramas según el tipo de configuración de tal forma se puede tener un menú de opciones para el audio, otro menú de opciones para los controles, otro menú de opciones para la configuración gráfica, menú de opciones para \emph{gameplay} y así muchos mas dependiendo del diseño, alcance y plataforma del vídeo juego. Suele presentarse a través del \emph{Menú de Inicio} pero en algunos juego también puede accederse directamente desde el \emph{gameplay} a través de algún menú de pausa o salida \cite{gb_optionsmenu}.
+Es un menú donde se presenta distintas opciones para modificar el juego, usualmente como mínimo se presentan controles de volumen/audio y dificultad, el menú de opciones suele dividirse en distintas ramas según el tipo de configuración de tal forma se puede tener un menú de opciones para el audio, otro menú de opciones para los controles, otro menú de opciones para la configuración gráfica, menú de opciones para \emph{gameplay} y así muchos mas dependiendo del diseño, alcance y plataforma del vídeo juego. Suele presentarse a través del \emph{Menú de Inicio} pero en algunos juego también puede accederse directamente desde el \emph{gameplay} a través de algún menú de pausa o salida \cite{gb_optionsmenu}.~\\
 
 \begin{figure}[H]
 \centering
@@ -49,7 +50,7 @@ Es un menú donde se presenta distintas opciones para modificar el juego, usualm
 Un menú donde se presentan las distintas sesiones de juego guardadas usualmente se presenta información como tiempo de juego, lugar de juego entre otros. Suele presentarse a través del \emph{Menú de Inicio} pero en algunos juego también puede accederse directamente desde el \emph{gameplay} a través de algún menú de pausa o salida.
 
 \subsection{HUD (\emph{Heads-Up Display})}
-Interfaz que muestra información del juego en todo momento durante el juego, generalmente se presenta la información de forma concisa y corta utilizando iconos, barras y números. El HUD muestra distinta información, diseño y integración el juego según el tipo de juego y su diseño, usualmente se muestran cosas como numero de vida o cantidad, puntuación, mini-mapa o radar, munición, etc todo esto dependiendo del vídeo juego \cite{huds}.
+Interfaz que muestra información del juego en todo momento durante el juego, generalmente se presenta la información de forma concisa y corta utilizando iconos, barras y números. El HUD muestra distinta información, diseño y integración el juego según el tipo de juego y su diseño, usualmente se muestran cosas como numero de vida o cantidad, puntuación, mini-mapa o radar, munición, etc todo esto dependiendo del vídeo juego \cite{huds}.~\\
 
 \begin{figure}[H]
 \centering
@@ -58,4 +59,25 @@ Interfaz que muestra información del juego en todo momento durante el juego, ge
 \end{figure}
 
 \section{Actividad}
-\todo[inline]{Por hacer.}
+Durante esta actividad debe agregar distintas piezas de interfaz a su juego, puede utilizar \emph{placeholders} para el diseño visual de su interfaz.
+\begin{itemize}
+\item Debe agregar un menú principal, el menú principal debe tener las siguientes acciones / opciones como mínimo:
+\begin{enumerate}
+\item Menú Principal $\rightarrow$ Empezar Juego.
+\item Menú Principal $\rightarrow$ Cargar Partida.
+\item Menú Principal $\rightarrow$ Salir del Juego.
+\end{enumerate}
+\item Debe agregar un menú de pausa y/o un menú de opciones / configuración, debe tener como mínimo las siguientes opciones:
+\begin{enumerate}
+\item Ir a Menú Principal
+\item Salir del Juego
+\item En el menú de opciones al menos debe existir la opción de controlar volumen. Durante el proceso de desarrollo en laboratorios futuros se deberán agregar mas opciones según el diseño de su juego como dificultad, controles y opciones gráficas.
+\item (Opcional) Cargar partidas desde el menú de pausa u opciones / configuración.
+\end{enumerate}
+\item Debe agregar un HUD o donde muestre información de el estado del jugador e información del juego, que mostrar en el HUD es dependiente de su diseño y mecánicas de juego.
+\item En laboratorios anteriores se trabajo una idea básica de partidas de jugador, ahora deberá agregar un Menú de Partidas, acá debe mostrar información básica de cada partida. Ademas deben existir las siguientes opciones:
+\begin{enumerate}
+\item Cargar Partida
+\item Borrar Partida
+\end{enumerate}
+\end{itemize}

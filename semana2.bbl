@@ -1,0 +1,52 @@
+\begin{thebibliography}{10}
+
+\bibitem{feng_fovy}
+{Feng Zhu School of Design: FoV in Video Games}.
+\newblock \url{http://artsygamer.com/fov-in-games/}, 2014.
+
+\bibitem{unity_camera}
+{Unity Manual: Camera}.
+\newblock \url{http://docs.unity3d.com/Manual/class-Camera.html}, 2014.
+
+\bibitem{residentevil2}
+{\sc Capcom}.
+\newblock {Resident Evil 2}.
+\newblock \url{http://www.giantbomb.com/resident-evil-2/3030-9418/}, 1998.
+
+\bibitem{res5_review}
+{\sc Casamassina, M.}
+\newblock {Resident Evil Review}.
+\newblock \url{http://uk.ign.com/articles/2002/04/26/resident-evil-3?page=3},
+  2002.
+
+\bibitem{bobbatesgamedesign}
+{\sc Gates, B.}
+\newblock {\em Game Design (2nd Edition)}.
+\newblock Thomson Course Technology, 2004.
+
+\bibitem{fixed_camera}
+{\sc {\relax GiantBomb Community}}.
+\newblock {Fixed Camera: Concept}.
+\newblock \url{http://www.giantbomb.com/fixed-camera/3015-1715/}, 2014.
+
+\bibitem{microsoft_frustum}
+{\sc Microsoft}.
+\newblock {What Is a View Frustum?}
+\newblock \url{https://msdn.microsoft.com/en-us/library/ff634570.aspx}, 2014.
+
+\bibitem{crashbandicoot}
+{\sc {\relax Naughty Dog Software}}.
+\newblock {Crash Bandicoot}.
+\newblock \url{http://www.ign.com/games/crash-bandicoot/ps-603}, 1996.
+
+\bibitem{supermario64}
+{\sc Nintendo}.
+\newblock {Super Mario 64}.
+\newblock \url{http://www.ign.com/games/super-mario-64/n64-606}, 1996.
+
+\bibitem{fund_gamedesign}
+{\sc Rollings~Andrew, E.~A.}
+\newblock {\em Fundamentals of Game Design}.
+\newblock Prentice Hall, 2006.
+
+\end{thebibliography}

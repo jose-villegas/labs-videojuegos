@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{fifa_physics}
+{\sc Chiaet, J.}
+\newblock {Getting on the Ball: How the FIFA 14 Soccer Video Game Finally Got
+  Its Physics Right}.
+\newblock
+  \url{http://www.scientificamerican.com/article/getting-on-the-ball-how-soccer-video-game-got-physics-right/},
+  2013.
+
+\bibitem{ian_gamephysics}
+{\sc Millington, I.}
+\newblock {\em {Game Physics Engine Development}}.
+\newblock Morgan Kaufmann, 2007.
+
+\bibitem{jenkinscreatinggames}
+{\sc Morgan~McGuire, O. C.~J.}
+\newblock {\em Creating Games}.
+\newblock A K Peters, 2008.
+
+\bibitem{vanderburg_particlesystem}
+{\sc van~der Burg, J.}
+\newblock {Building an Advanced Particle System}.
+\newblock
+  \url{http://www.gamasutra.com/view/feature/3157/building_an_advanced_particle_.php},
+  2000.
+
+\end{thebibliography}

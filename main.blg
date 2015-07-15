@@ -1,7 +1,17 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: acm.bst
 Database file #1: references.bib
-Warning--entry type for "sprites_siggraph" isn't style-file defined
---line 301 of file references.bib
-Warning--to sort, need author or key in wesnothgame
-(There were 2 warnings)
+Warning--entry type for "quake_live" isn't style-file defined
+--line 57 of file references.bib
+Warning--entry type for "doomii" isn't style-file defined
+--line 64 of file references.bib
+Warning--entry type for "crysis" isn't style-file defined
+--line 71 of file references.bib
+Warning--entry type for "gb_optionsmenu" isn't style-file defined
+--line 322 of file references.bib
+Warning--entry type for "mainmenu" isn't style-file defined
+--line 329 of file references.bib
+Warning--entry type for "huds" isn't style-file defined
+--line 336 of file references.bib
+Warning--to sort, need author or key in mainmenu
+(There were 7 warnings)
