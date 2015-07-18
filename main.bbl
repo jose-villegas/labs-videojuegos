@@ -1,41 +1,20 @@
 \begin{thebibliography}{1}
 
-\bibitem{mainmenu}
-{Video Game Design/Structure: The Main Menu}.
+\bibitem{eric_ragdoll}
+{\sc Brown, E.}
+\newblock {Ragdoll Physics On The DS}.
 \newblock
-  \url{https://en.wikibooks.org/wiki/Video_Game_Design/Structure#The_Main_Menu}.
+  \url{http://www.gamasutra.com/view/feature/132309/ragdoll_physics_on_the_ds.php},
+  2009.
 
-\bibitem{crysis}
-{\sc CRYTEK}.
-\newblock {Crysis}.
-\newblock \url{http://crysis.com/}, 2007.
-
-\bibitem{gb_optionsmenu}
-{\sc {\relax GiantBomb Community}}.
-\newblock {Options Menu: Concept}.
-\newblock \url{http://www.giantbomb.com/options-menu/3015-6644/}, 2014.
-
-\bibitem{doomii}
-{\sc {\relax id Software }}.
-\newblock {DOOM II: Hell on Earth}.
-\newblock \url{http://doomwiki.org/wiki/Doom_II}, 1994.
-
-\bibitem{quake_live}
-{\sc {\relax id Software}}.
-\newblock {Quake Live}.
-\newblock \url{http://www.quakelive.com/#!home}, 2010.
+\bibitem{ian_gamephysics}
+{\sc Millington, I.}
+\newblock {\em {Game Physics Engine Development}}.
+\newblock Morgan Kaufmann, 2007.
 
 \bibitem{jenkinscreatinggames}
 {\sc Morgan~McGuire, O. C.~J.}
 \newblock {\em Creating Games}.
 \newblock A K Peters, 2008.
-
-\bibitem{huds}
-{\sc Wilson, G.}
-\newblock {Off With Their HUDs!: Rethinking the Heads-Up Display in Console
-  Game Design}.
-\newblock
-  \url{http://www.gamasutra.com/view/feature/2538/off_with_their_huds_rethinking_.php},
-  2006.
 
 \end{thebibliography}

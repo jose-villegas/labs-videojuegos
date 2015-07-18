@@ -17,6 +17,7 @@
   \item ¿Existen niveles en este juego? ¿Como se realiza la transicion entre uno y otro?
   \item ¿El progreso del juego es de forma lineal o ciertas decisiones puede modificar el mundo del juego?
 \end{enumerate}
+\item Investigar según su herramienta de trabajo como incorporar niveles, si posee editor de niveles o debe integrar mas herramientas a su ambiente de trabajo. Recomendado probar ejemplos.
 \end{itemize}
 
 \section{Introducción}
@@ -24,6 +25,15 @@ Un nivel, mapa, área, mundo, zona o fase en un vídeo juego es el espacio total
 
 En juegos con una progresión lineal los niveles son áreas que forman parte de un mundo mas grande, los juegos suelen conectar niveles con cada nivel representando una zona o localidad en un mundo de mayor tamaño, esto suele suceder por dos razones, primero diseño del juego y segundo por razones de \emph{performance} \cite[p.~104]{jenkinscreatinggames}.
 
+Otro juegos siguen un enfoque de niveles basados en la posicion del jugador en un mapa. Usualmente usado en juegos \emph{open world} (mundo abierto), en esta clase de juegos usualmente se propone un mundo totalmente abierto a la exploración sin embargo es muy común que exista cierta progresión lineal en la historia u objetivo del juego que lleva al jugador a explorar ciertas regiones de este mundo de juego, un juego \emph{open world} donde no exista esta idea de progresión u objetivo alguno se le llama un \textit{sandbox} (caja de arena) puro acá el jugador simplemente esta en un mundo de juego con el que puede interaccionar sin ningún objetivo claro proveído por el juego \cite[p.~104]{jenkinscreatinggames}.
+
 Cada nivel usualmente tiene asociado algún objetivo diseñado para el mismo, este objetivo puede ser tan sencillo como moverse de un punto a otro, es usual que cuando el objetivo sea completado el jugador sea trasladado a otro nivel o el siguiente nivel en caso de un juego con progresión lineal, es usual también que si el jugador falla completando el objetivo este deba volver a completar el nivel o retornar a algún punto en el mismo \cite[p.~111]{bobbatesgamedesign}.
 \section{Actividad}
-\todo[inline]{Por hacer.}
+Durante esta actividad debe incorporar mas niveles a su juego aumentando su durabilidad y retos. También si su juego posee alguna historia este es el momento perfecto de incorporarla.
+\begin{itemize}
+\item Para estar actividad debe cumplir como mínimo con los siguientes objetivos.
+\begin{enumerate}
+  \item Debe crear continuidad en el juego, ya sea a través de progreso por distintos niveles en modo lineal u con objetivos basados por posición.
+  \item Debe almacenar información del desempeño del jugador en un nivel o avance a través de su linea de progresión. Esta información es dependiente de su diseño de juego pero debe ser suficiente para tener alguna forma de contabilizar que tan bien juega el usuario.
+\end{enumerate}
+\end{itemize}
