@@ -1,20 +1,44 @@
 \begin{thebibliography}{1}
 
-\bibitem{eric_ragdoll}
-{\sc Brown, E.}
-\newblock {Ragdoll Physics On The DS}.
+\bibitem{erikgamedevelopment}
+{\sc Bethke, E.}
+\newblock {\em Game Development and Production}.
+\newblock Wordware Game Developer's Library, 2003.
+
+\bibitem{jmonkey}
+{\sc \relax{JMonkeyEngine}}.
+\newblock {Level of Detail (LOD) Optimization}.
 \newblock
-  \url{http://www.gamasutra.com/view/feature/132309/ragdoll_physics_on_the_ds.php},
-  2009.
+  \url{http://wiki.jmonkeyengine.org/doku.php/jme3:advanced:level_of_detail}.
 
-\bibitem{ian_gamephysics}
-{\sc Millington, I.}
-\newblock {\em {Game Physics Engine Development}}.
-\newblock Morgan Kaufmann, 2007.
+\bibitem{polygon_sdk}
+{\sc \relax{MooTools Software}}.
+\newblock {Polygon Cruncher SDK}.
+\newblock \url{http://www.mootools.com/plugins/us/3dlibrary/}.
 
-\bibitem{jenkinscreatinggames}
-{\sc Morgan~McGuire, O. C.~J.}
-\newblock {\em Creating Games}.
-\newblock A K Peters, 2008.
+\bibitem{simplygon}
+{\sc \relax{MooTools Software}}.
+\newblock {Simplygon: Automagic 3D Optimization}.
+\newblock \url{https://www.simplygon.com/}.
+
+\bibitem{unity_camera}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Camera}.
+\newblock \url{http://docs.unity3d.com/Manual/class-Camera.html}, 2014.
+
+\bibitem{unity_batch}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Draw Call Batching}.
+\newblock \url{http://docs.unity3d.com/Manual/DrawCallBatching.html}, 2014.
+
+\bibitem{unity_lod}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Level of Detail}.
+\newblock \url{http://docs.unity3d.com/Manual/LevelOfDetail.html}, 2014.
+
+\bibitem{unity_culling}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Occlusion Culling}.
+\newblock \url{http://docs.unity3d.com/Manual/OcclusionCulling.html}, 2014.
 
 \end{thebibliography}

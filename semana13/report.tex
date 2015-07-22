@@ -18,7 +18,7 @@
   \item Si el juego posee simulaciones físicas ¿cual cree que sea el propósito de estas?
   \item En caso de no tener simulaciones físicas ¿considera algún caso donde el juego se pueda beneficiar de agregar simulaciones físicas?
 \end{enumerate}
-\item Investigar segun su herramienta de trabajo como incorporar simulaciones fisicas, rag-dolls, particulas y proyectiles tanto en 3D como en 2D. Recomendado practicar con ejemplos.
+\item Investigar según su herramienta de trabajo como incorporar simulaciones físicas, rag-dolls, partículas y proyectiles tanto en 3D como en 2D. Recomendado practicar con ejemplos especialmente en 2D.
 \end{itemize}
 
 \section{Introducción}
@@ -42,4 +42,9 @@ Hay dos clases centrales de simulaciones físicas, simulaciones de cuerpos rígi
 Es una tecnica de simulacion que consiste en la animación procedimental de un personaje cuando este muere (u otro estado definido por el juego para causar \emph{ragdoll}, consiste en tratar a un objeto o personaje como una serie de objetos sólidos (huesos) conectados en distintos puntos formando un esqueleto. La simulación ocurre cuando el evento necesario para causar físicas \emph{ragdoll} sobre un objeto o personaje sucede, en los vídeo juegos esto pasa usualmente cuando el personaje muere \cite{eric_ragdoll}.
 
 \section{Actividad}
-\todo[inline]{Por hacer.}
+Durante esta actividad se busca agregar físicas al juego para mejorar la inmersión y calidad visual del juego. Este laboratorio se enfocara en el uso de simulaciones físicas con el uso de rigid-bodies (cuerpos rígidos)
+\begin{itemize}
+\item Se debe hacer uso de rigid-bodies para varios objetos en escena.
+\item Provocar un eventos al colisionar con un objeto rigid-body.
+\item Asociar alguna acción al evento de colisión con un rigid-body, como reproducir un sonido o disminuir alguna propiedad asociada al jugador principal (como los puntos de vida, etc).
+\end{itemize}

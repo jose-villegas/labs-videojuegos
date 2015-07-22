@@ -1,6 +1,18 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: acm.bst
 Database file #1: references.bib
-Warning--entry type for "eric_ragdoll" isn't style-file defined
---line 196 of file references.bib
-(There was 1 warning)
+Warning--entry type for "unity_camera" isn't style-file defined
+--line 252 of file references.bib
+Warning--entry type for "unity_batch" isn't style-file defined
+--line 259 of file references.bib
+Warning--entry type for "unity_culling" isn't style-file defined
+--line 266 of file references.bib
+Warning--entry type for "unity_lod" isn't style-file defined
+--line 273 of file references.bib
+Warning--entry type for "polygon_sdk" isn't style-file defined
+--line 301 of file references.bib
+Warning--entry type for "simplygon" isn't style-file defined
+--line 308 of file references.bib
+Warning--entry type for "jmonkey" isn't style-file defined
+--line 315 of file references.bib
+(There were 7 warnings)
