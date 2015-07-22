@@ -1,3 +1,44 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{erikgamedevelopment}
+{\sc Bethke, E.}
+\newblock {\em Game Development and Production}.
+\newblock Wordware Game Developer's Library, 2003.
+
+\bibitem{jmonkey}
+{\sc \relax{JMonkeyEngine}}.
+\newblock {Level of Detail (LOD) Optimization}.
+\newblock
+  \url{http://wiki.jmonkeyengine.org/doku.php/jme3:advanced:level_of_detail}.
+
+\bibitem{polygon_sdk}
+{\sc \relax{MooTools Software}}.
+\newblock {Polygon Cruncher SDK}.
+\newblock \url{http://www.mootools.com/plugins/us/3dlibrary/}.
+
+\bibitem{simplygon}
+{\sc \relax{MooTools Software}}.
+\newblock {Simplygon: Automagic 3D Optimization}.
+\newblock \url{https://www.simplygon.com/}.
+
+\bibitem{unity_camera}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Camera}.
+\newblock \url{http://docs.unity3d.com/Manual/class-Camera.html}, 2014.
+
+\bibitem{unity_batch}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Draw Call Batching}.
+\newblock \url{http://docs.unity3d.com/Manual/DrawCallBatching.html}, 2014.
+
+\bibitem{unity_lod}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Level of Detail}.
+\newblock \url{http://docs.unity3d.com/Manual/LevelOfDetail.html}, 2014.
+
+\bibitem{unity_culling}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Occlusion Culling}.
+\newblock \url{http://docs.unity3d.com/Manual/OcclusionCulling.html}, 2014.
 
 \end{thebibliography}

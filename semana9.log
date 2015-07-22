@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  15 JUL 2015 14:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  21 JUL 2015 22:48
 entering extended mode
 **base.tex
 (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\base.tex
@@ -909,11 +909,8 @@ Package pdftex.def Info: logoucv-eps-converted-to.pdf used on input line 50.
 [1
 
 {C:/Users/Jose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jos
-e/Dropbox/UCV/Pasantias/LabsVideojuegos/logoucv-eps-converted-to.pdf>]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 29.
-)
-(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana9.bbl) [2]
+e/Dropbox/UCV/Pasantias/LabsVideojuegos/logoucv-eps-converted-to.pdf>])
+(C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\semana9.bbl [2]) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 
@@ -921,24 +918,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `semana9.out' has not changed.
-(rerunfilecheck)             Checksum: C87E1E7FE5BC3EBE8F99205AD9FB03F1;195.
+(rerunfilecheck)             Checksum: 91BEAE3368251FD7B5BFE796D5BCBB14;195.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 18048 strings out of 493921
- 330793 string characters out of 3154503
+ 18013 strings out of 493921
+ 329807 string characters out of 3154503
  409711 words of memory out of 3000000
- 20999 multiletter control sequences out of 15000+200000
+ 20962 multiletter control sequences out of 15000+200000
  5791 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,7n,80p,530b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,5n,56p,781b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
 fb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb>
-Output written on semana9.pdf (2 pages, 110392 bytes).
+Output written on semana9.pdf (3 pages, 113776 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

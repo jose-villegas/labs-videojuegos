@@ -16,7 +16,6 @@ Warning--entry type for "fixed_camera" isn't style-file defined
 Warning--entry type for "unity_camera" isn't style-file defined
 --line 252 of file references.bib
 Warning--entry type for "feng_fovy" isn't style-file defined
---line 259 of file references.bib
-Warning--to sort, need author or key in unity_camera
+--line 280 of file references.bib
 Warning--to sort, need author or key in feng_fovy
-(There were 10 warnings)
+(There were 9 warnings)

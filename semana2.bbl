@@ -4,10 +4,6 @@
 {Feng Zhu School of Design: FoV in Video Games}.
 \newblock \url{http://artsygamer.com/fov-in-games/}, 2014.
 
-\bibitem{unity_camera}
-{Unity Manual: Camera}.
-\newblock \url{http://docs.unity3d.com/Manual/class-Camera.html}, 2014.
-
 \bibitem{residentevil2}
 {\sc Capcom}.
 \newblock {Resident Evil 2}.
@@ -43,6 +39,11 @@
 {\sc Nintendo}.
 \newblock {Super Mario 64}.
 \newblock \url{http://www.ign.com/games/super-mario-64/n64-606}, 1996.
+
+\bibitem{unity_camera}
+{\sc \relax{Unity Technologies}}.
+\newblock {Unity Manual: Camera}.
+\newblock \url{http://docs.unity3d.com/Manual/class-Camera.html}, 2014.
 
 \bibitem{fund_gamedesign}
 {\sc Rollings~Andrew, E.~A.}
