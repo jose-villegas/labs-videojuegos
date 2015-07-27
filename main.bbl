@@ -1,44 +1,61 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{grantrak}
+{Gran Trak 10}.
+\newblock \url{http://www.arcade-museum.com/game_detail.php?game_id=7992}.
+
+\bibitem{atarispong}
+{\sc Alcorn, A.}
+\newblock {Atari History, Timeline 1972-1984, November-30-1972}.
+\newblock \url{https://www.atari.com/history/1972-1984-0}.
+
+\bibitem{tennisfortwo}
+{\sc Anderson, J.}
+\newblock {Tennis for Two, The story of an early computer game}.
+\newblock \url{http://www.pong-story.com/1958.htm}.
+
+\bibitem{ralphbaerbrownbox}
+{\sc Baer, R.~H.}
+\newblock {The Brown Box, 1967–68}.
+\newblock
+  \url{http://americanhistory.si.edu/collections/search/object/nmah_1301997}.
 
 \bibitem{erikgamedevelopment}
 {\sc Bethke, E.}
 \newblock {\em Game Development and Production}.
 \newblock Wordware Game Developer's Library, 2003.
 
-\bibitem{jmonkey}
-{\sc \relax{JMonkeyEngine}}.
-\newblock {Level of Detail (LOD) Optimization}.
+\bibitem{mazewars}
+{\sc Colley, S.}
+\newblock {Stories from the Maze War 30 Year Retrospective}.
 \newblock
-  \url{http://wiki.jmonkeyengine.org/doku.php/jme3:advanced:level_of_detail}.
+  \url{http://www.digibarn.com/history/04-VCF7-MazeWar/stories/colley.html}.
 
-\bibitem{polygon_sdk}
-{\sc \relax{MooTools Software}}.
-\newblock {Polygon Cruncher SDK}.
-\newblock \url{http://www.mootools.com/plugins/us/3dlibrary/}.
+\bibitem{asdouglasgame}
+{\sc Douglas, A.}
+\newblock {Noughts and Crosses - The oldest graphical computer game}.
+\newblock \url{http://www.pong-story.com/1952.htm}.
 
-\bibitem{simplygon}
-{\sc \relax{MooTools Software}}.
-\newblock {Simplygon: Automagic 3D Optimization}.
-\newblock \url{https://www.simplygon.com/}.
+\bibitem{bobbatesgamedesign}
+{\sc Gates, B.}
+\newblock {\em Game Design (2nd Edition)}.
+\newblock Thomson Course Technology, 2004.
 
-\bibitem{unity_camera}
-{\sc \relax{Unity Technologies}}.
-\newblock {Unity Manual: Camera}.
-\newblock \url{http://docs.unity3d.com/Manual/class-Camera.html}, 2014.
+\bibitem{magnavox}
+{\sc Lowood, H.}
+\newblock {Magnavox Odyssey, First home video game console}.
+\newblock \url{http://www.pong-story.com/odyssey.htm}.
 
-\bibitem{unity_batch}
-{\sc \relax{Unity Technologies}}.
-\newblock {Unity Manual: Draw Call Batching}.
-\newblock \url{http://docs.unity3d.com/Manual/DrawCallBatching.html}, 2014.
+\bibitem{computerspace}
+{\sc Lowood, H.}
+\newblock {Videogames in Computer Space: The Complex History of Pong}.
+\newblock
+  \url{http://lmc.gatech.edu/~bogost/courses/spring10/lcc8823/lowood.pdf},
+  2010.
 
-\bibitem{unity_lod}
-{\sc \relax{Unity Technologies}}.
-\newblock {Unity Manual: Level of Detail}.
-\newblock \url{http://docs.unity3d.com/Manual/LevelOfDetail.html}, 2014.
-
-\bibitem{unity_culling}
-{\sc \relax{Unity Technologies}}.
-\newblock {Unity Manual: Occlusion Culling}.
-\newblock \url{http://docs.unity3d.com/Manual/OcclusionCulling.html}, 2014.
+\bibitem{spacewar}
+{\sc Markoff, J.}
+\newblock {Alan Kotok, 64, a Pioneer In Computer Video Games}.
+\newblock {\em {The New York Times}\/} (2006).
 
 \end{thebibliography}

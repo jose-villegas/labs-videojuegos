@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  21 JUL 2015 22:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  22 JUL 2015 17:36
 entering extended mode
 **base.tex
 (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\base.tex
@@ -944,10 +944,10 @@ Package rerunfilecheck Info: File `semana13.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 18068 strings out of 493921
- 330623 string characters out of 3154503
+ 18069 strings out of 493921
+ 330631 string characters out of 3154503
  410712 words of memory out of 3000000
- 21001 multiletter control sequences out of 15000+200000
+ 21002 multiletter control sequences out of 15000+200000
  8757 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,5n,75p,712b,379s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -956,7 +956,7 @@ ublic/amsfonts/cm/cmbxti10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc1
 0.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10
 .pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on semana13.pdf (3 pages, 190501 bytes).
+Output written on semana13.pdf (3 pages, 190510 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
