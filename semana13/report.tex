@@ -1,7 +1,7 @@
 \begin{center}
 \textsc{\Large Laboratorio 13}~\\
-{\large Vídeo Juegos, Físicas, Programación}~\\
-\emph{Física en Vídeo Juegos, Simulaciones y Ragdolls}
+{\large Videojuegos, Físicas, Programación}~\\
+\emph{Física en Videojuegos, Simulaciones y Ragdolls}
 \end{center}
 
 \section{Pre-Laboratorio}
@@ -22,13 +22,13 @@
 \end{itemize}
 
 \section{Introducción}
-Para agregar realismo, nuevas mecánicas o mayor calidad visual se introducen leyes físicas dentro del motor de juego, es mayormente usado en juegos tridimensionales \cite[p.~325]{jenkinscreatinggames}. Estas nuevos efectos se introducen en forma de simulaciones las cuales son aproximaciones de fenómenos reales utilizando valores discretos \cite{ian_gamephysics}. En el ambiente de un vídeo juegos una simulación completa y totalmente correcta podría causar complicaciones en las mecánicas de juego, progreso de la historia o hacer tediosas ciertas actividades.
+Para agregar realismo, nuevas mecánicas o mayor calidad visual se introducen leyes físicas dentro del motor de juego, es mayormente usado en juegos tridimensionales \cite[p.~325]{jenkinscreatinggames}. Estas nuevos efectos se introducen en forma de simulaciones las cuales son aproximaciones de fenómenos reales utilizando valores discretos \cite{ian_gamephysics}. En el ambiente de un videojuegos una simulación completa y totalmente correcta podría causar complicaciones en las mecánicas de juego, progreso de la historia o hacer tediosas ciertas actividades.
 
 \section{Simulaciones Físicas}
 \setlength\intextsep{0pt}
 \begin{wrapfigure}[8]{l}{0.4\linewidth}
 \includegraphics[width=\linewidth]{media/beamng_gamephysics.jpg}
-\caption{BeamNG un vídeo juego simulador de vehiculos que utiliza \emph{soft-body physics}.}
+\caption{BeamNG un videojuego simulador de vehiculos que utiliza \emph{soft-body physics}.}
 \label{fig:beamng}
 \end{wrapfigure}
 Hay dos clases centrales de simulaciones físicas, simulaciones de cuerpos rígidos (\emph{rigid-body physics}) y simulaciones de cuerpos blandos (\emph{soft-body physics}). En una simulación de cuerpos rígidos los objetos se agrupan entre categorías basadas en como deberían interaccionar, las simulaciones de cuerpos rígidos son menos intensas en cuanto a perdida de \emph{performance}. Las simulaciones de cuerpos blandos consisten en simular secciones individuales de cada objeto de tal forma que este se comporte de manera realista, usualmente utilizadas para simular objetos deformables como ropa o materiales destructibles \cite{ian_gamephysics}.
@@ -39,7 +39,7 @@ Hay dos clases centrales de simulaciones físicas, simulaciones de cuerpos rígi
 \caption{Simulación de un personaje cayendo unas escalera, se utiliza un \emph{ragdoll}.}
 \label{fig:ragdoll}
 \end{wrapfigure}
-Es una técnica de simulación que consiste en la animación procedimental de un personaje cuando este muere (u otro estado definido por el juego para causar \emph{ragdoll}, consiste en tratar a un objeto o personaje como una serie de objetos sólidos (huesos) conectados en distintos puntos formando un esqueleto. La simulación ocurre cuando el evento necesario para causar físicas \emph{ragdoll} sobre un objeto o personaje sucede, en los vídeo juegos esto pasa usualmente cuando el personaje muere \cite{eric_ragdoll}.
+Es una técnica de simulación que consiste en la animación procedimental de un personaje cuando este muere (u otro estado definido por el juego para causar \emph{ragdoll}, consiste en tratar a un objeto o personaje como una serie de objetos sólidos (huesos) conectados en distintos puntos formando un esqueleto. La simulación ocurre cuando el evento necesario para causar físicas \emph{ragdoll} sobre un objeto o personaje sucede, en los videojuegos esto pasa usualmente cuando el personaje muere \cite{eric_ragdoll}.
 
 \section{Actividad}
 Durante esta actividad se busca agregar físicas al juego para mejorar la inmersión y calidad visual del juego. Este laboratorio se enfocara en el uso de simulaciones físicas con el uso de rigid-bodies (cuerpos rígidos)
