@@ -17,6 +17,7 @@
 \usepackage{todonotes}
 \usepackage{sidecap}
 \usepackage{wrapfig}
+\usepackage{listings}
 % eps to pdf
 \ifpdf
   \usepackage{epstopdf}
