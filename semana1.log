@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  22 JUL 2015 17:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  29 JUL 2015 22:07
 entering extended mode
 **base.tex
 (C:\Users\Jose\Dropbox\UCV\Pasantias\LabsVideojuegos\base.tex
@@ -933,7 +933,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `semana1.out' has not changed.
-(rerunfilecheck)             Checksum: 98BFA4356C11C51A118921F6AE8CE2F6;840.
+(rerunfilecheck)             Checksum: 1A410F25F95E11AA7C80A5B7AAD94B5D;828.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
@@ -943,7 +943,7 @@ Here is how much of TeX's memory you used:
  21021 multiletter control sequences out of 15000+200000
  10652 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,8n,75p,810b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,8n,75p,808b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.
 pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/
@@ -955,7 +955,7 @@ lic/amsfonts/cm/cmssi10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmti9.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on semana1.pdf (9 pages, 283509 bytes).
+Output written on semana1.pdf (9 pages, 282982 bytes).
 PDF statistics:
  256 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)
